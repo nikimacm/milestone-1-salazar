@@ -92,3 +92,18 @@ Both the visual and navigational elements of the site need to be user friendly a
 * Generate leads by asking visitors to subscribe to a monthly newsletter.
 
 * Produce a site which is easily accessible on all sizes, mobile devices and browsers.
+
+#### User Requirements and expectations
+
+* A fast loading time.
+
+* A website which is clear and easy to navigate.
+
+* Recognisable format, no surprises.
+
+* A well designed, aesthetically pleasing user interface.
+
+* The ability to make a decision based on site content.
+
+* A means to contact business owners directly for a more personal experience.
+ 
