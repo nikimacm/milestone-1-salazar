@@ -77,4 +77,4 @@ Both the visual and navigational elements of the site need to be user friendly a
 
 * As a lanuguage teacher in Ireland, I want to create a budget for a group of ten adult students, and hope the online booking platform can assist me in this.
 
-* As a person of reduced mobility, the site needs to show the options available to me, so I know this company will provide me with suitable accomodation, accessible learning contions, transport option etc.
+* As a person of reduced mobility, the site needs to show the options available to me, so I know this company will provide me with suitable accomodation, accessible learning conditions, transport options etc.
