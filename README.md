@@ -48,3 +48,17 @@ such as length of course, accomodation, cultural activities, the buddy system an
 #### Project Goals
 The main goal of this project is to utilise the skills developed throughout the first three modules of the course to develop a fully functioning static website, which is useful, useable and valuable.
 Both the visual and navigational elements of the site need to be user friendly and accessible. 
+
+#### User Goals
+
+* To find information about the company and language immersion in a straighforward and simple manner.
+
+* To know the price of the courses offered and what is included in this price.
+
+* To discover why these courses differ from others and what can be achieved by signing up. 
+
+* To be able to book directly from the site, courses and accomodation included.
+
+* The opportunity to read testimonials and view a gallery of photos to give a clearer idea of how the trip will be.
+
+* Find more information on the courses and activities by clicking onto the instagram, facebook, trip adviser and twitter links provided.
