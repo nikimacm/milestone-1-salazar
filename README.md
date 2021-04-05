@@ -78,3 +78,17 @@ Both the visual and navigational elements of the site need to be user friendly a
 * As a lanuguage teacher in Ireland, I want to create a budget for a group of ten adult students, and hope the online booking platform can assist me in this.
 
 * As a person of reduced mobility, the site needs to show the options available to me, so I know this company will provide me with suitable accomodation, accessible learning conditions, transport options etc.
+
+#### Site Owner Goals
+
+* Design a site which represents the services offered and will appeal to the target market using appropriate colour schemes, imagery, typography and useful information.
+
+* Ensure the site is easy to navigate and all information can be found by visitors within seconds.
+
+* Engage postential customers by outlining why the services are unique, trustworthy and valuable.
+
+* Increase website traffic from the target audience using tools such as google analytics, blogging and social media.
+
+* Generate leads by asking visitors to subscribe to a monthly newsletter.
+
+* Produce a site which is easily accessible on all sizes, mobile devices and browsers.
