@@ -119,14 +119,29 @@ Both the visual and navigational elements of the site need to be user friendly a
 ### WIREFRAMES <hr>
 
 #### Home
-![wireframes](desktop-home.png)
+
+Desktop wireframe for Home page.
+![desktop-home](wireframes/desktop-home.png)
+
 #### About
+
+Desktop wireframe for About page.
+![desktop-about](wireframes/desktop-about.png)
 
 #### Courses
 
+Desktop wireframe for Courses page.
+![desktop-courses](wireframes/desktop-courses.png)
+
 #### Contact
 
+Desktop wireframe for Contact page.
+![desktop-contact](wireframes/desktop-contact.png)
+
 #### Booking
+
+Desktop wireframe for Booking page.
+![desktop-booking](wireframes/desktop-Book.png)
 
 
 
