@@ -123,25 +123,40 @@ Both the visual and navigational elements of the site need to be user friendly a
 Desktop wireframe for Home page.
 ![desktop-home](wireframes/desktop-home.png)
 
+Mobile wireframe for Home page.
+![mobile-home](wireframes/mobile-home.png)
+
 #### About
 
 Desktop wireframe for About page.
 ![desktop-about](wireframes/desktop-about.png)
+
+Mobile wireframe for About page.
+![mobile-about](wireframes/mobile-about.png)
 
 #### Courses
 
 Desktop wireframe for Courses page.
 ![desktop-courses](wireframes/desktop-courses.png)
 
+Mobile wireframe for Courses page.
+![mobile-courses](wireframes/mobile-courses.png)
+
 #### Contact
 
 Desktop wireframe for Contact page.
 ![desktop-contact](wireframes/desktop-contact.png)
 
+Mobile wireframe for Contact page.
+![mobile-contact](wireframes/mobile-contact.png)
+
 #### Booking
 
 Desktop wireframe for Booking page.
 ![desktop-booking](wireframes/desktop-Book.png)
+
+Mobile wireframe for Booking page.
+![mobile-booking](wireframes/mobile-Book.png)
 
 
 
