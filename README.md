@@ -20,8 +20,7 @@
     * [Home](#home)
     * [About](#about)
     * [Courses](#courses)
-    * [Activities](#activities)
-    * [Pricing](#pricing)
+    * [Contact](#contact)
     * [Booking](#booking)
 
 * [FEATURES](#features)
@@ -106,4 +105,30 @@ Both the visual and navigational elements of the site need to be user friendly a
 * The ability to make a decision based on site content.
 
 * A means to contact business owners directly for a more personal experience.
+
+### DESIGN <hr>
+
+#### Design Choices
+
+#### Colours
+
+#### Fonts
+
+#### Structure
+
+### WIREFRAMES <hr>
+
+#### Home
+![wireframes](desktop-home.png)
+#### About
+
+#### Courses
+
+#### Contact
+
+#### Booking
+
+
+
+
  
