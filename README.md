@@ -112,6 +112,11 @@ Both the visual and navigational elements of the site need to be user friendly a
 
 #### Colours
 
+- ![#f03c15](https://via.placeholder.com/15/a4c9df/000000?text=+) `#a4c9df`
+- ![#c5f015](https://via.placeholder.com/15/6d7184/000000?text=+) `#6d7184`
+- ![#1589F0](https://via.placeholder.com/15/556b2f/000000?text=+) `#556b2f`
+- ![#c5f015](https://via.placeholder.com/15/282338/000000?text=+) `#282338`
+- ![#1589F0](https://via.placeholder.com/15/bc8f8f/000000?text=+) `#5bc8f8f`
 #### Fonts
 
 #### Structure
