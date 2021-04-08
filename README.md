@@ -153,6 +153,24 @@ Both the visual and navigational elements of the site need to be user friendly a
 
 * [mobile-booking](wireframes/mobile-Book.png)
 
+### FEATURES <hr>
+#### Information
+
+#### Booking Form
+
+#### Price List
+
+#### Images
+
+#### Google Maps
+
+### TESTING <hr>
+
+### BUGS <hr>
+
+### DEPLOYMENT <hr>
+
+### CREDITS<hr>
 
 
 
