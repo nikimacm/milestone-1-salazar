@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;1,400;1,500&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
-.navbar-brand {
+.navbar .navbar-brand {
 
     margin-top: 0px;
     margin-left: 25px;
@@ -18,10 +18,27 @@ p {
     text-transform: none;
     letter-spacing: 1px;
     color: #777777;
+    line-height: 5px;
+}
+
+.navbar-nav .nav-item .nav-link {
+
+font-family: Lato;
 
 }
 
-.nav-item,navbar-nav{
-float: right;
-font-family: Lato;
+#navbarNav a:hover{
+
+    border-bottom: 1px solid #556b2f;
+
+}
+
+.nav-link .active{
+    border-bottom: 1px sold #777777;
+}
+
+#hero-image{
+    height: 600px;
+    width: 100%;
+    background: url(images/tiles.jpeg);
 }
