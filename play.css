@@ -1,0 +1,8 @@
+@media (max-width: 767px) { 
+       .navbar{
+          margin-top: 20px // the size that you want to your div above the navbar
+        }
+        #topContent{
+          top: 0;
+          position: fixed;
+        }

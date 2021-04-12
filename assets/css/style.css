@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;1,400;1,500&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
-.navbar .navbar-brand {
+.navbar-brand  .ml-auto .logo {
 
     margin-top: 0px;
     margin-left: 25px;
@@ -9,7 +9,7 @@
     font-weight: 500;
     color: #556b2f;
     text-transform: uppercase;
-    letter-spacing: 4px;
+    letter-spacing: 10px;
     
 }
 p {
@@ -19,13 +19,18 @@ p {
     letter-spacing: 1px;
     color: #777777;
     line-height: 5px;
+
 }
 
-.navbar-nav .nav-item .nav-link {
+
+.navbar-nav .ml-auto{
 
 font-family: Lato;
+letter-spacing: 8px;
 
 }
+
+/*-------------------------------------------------------Hover.css*/
 
 #navbarNav a:hover{
 
