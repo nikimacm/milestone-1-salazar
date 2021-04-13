@@ -69,6 +69,14 @@ h4 {
     border-bottom: 1px solid #282338;
 }
 
+/* ----------------------------------------Hero image */
+
+#hero-image{
+    height: 600px;
+    width: 100%;
+    background: url(/assets/images/tiles.jpeg) no-repeat center center;
+     background-size: cover;
+}
 /* ----------------------------------------Footer */
 footer {
     background-color: #282338;
