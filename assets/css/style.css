@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;1,400;1,500&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 
+
 /* ----------------------------------------Navbar */
 .navbar .navbar-brand {
     color: #556b2f;
@@ -22,9 +23,7 @@
     line-height: 1px;
 
 }
-.text-right{
-   
-}
+
 .nav-item {
     font-family: Lato; 
     text-transform: uppercase;
@@ -71,12 +70,6 @@ h4 {
 
 /* ----------------------------------------Hero image */
 
-#hero-image{
-    height: 600px;
-    width: 100%;
-    background: url(/assets/images/tiles.jpeg) no-repeat center center;
-     background-size: cover;
-}
 /* ----------------------------------------Footer */
 footer {
     background-color: #282338;
