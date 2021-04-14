@@ -69,7 +69,9 @@ h4 {
 }
 
 /* ----------------------------------------Hero image */
-
+img{
+    background-image: url(/images/tiles.jpeg);
+}
 /* ----------------------------------------Content */
 
 
