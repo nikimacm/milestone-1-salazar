@@ -69,8 +69,23 @@ h4 {
 }
 
 /* ----------------------------------------Hero image */
-img{
+.index-main-image{
     background-image: url(/images/tiles.jpeg);
+    margin: 0px;
+    padding: 0px;
+}
+
+/* ----------------------------------------Banner */
+.index-banner {
+    width: 100%;
+    background-color:
+}
+
+.index-banner .jumbatron {
+    padding: 0px 60px;
+    background-color: red;
+    margin: 0px;
+    font-family: Josefin Sans;
 }
 /* ----------------------------------------Content */
 
