@@ -94,7 +94,18 @@ h4 {
 
 }
 /* ----------------------------------------Content */
+.index-info{
+    text-align: center;
+   font-family: Lato;
+}
 
+h3{
+    text-align: center;
+}
+
+img{
+    background-position: center;
+}
 
 /* ----------------------------------------Footer */
 footer {
