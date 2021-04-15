@@ -73,6 +73,7 @@ h4 {
     background-image: url(/images/tiles.jpeg);
     margin: 0px;
     padding: 0px;
+    background-repeat: no-repeat;
 }
 
 /* ----------------------------------------Banner */
@@ -107,6 +108,17 @@ img{
     background-position: center;
 }
 
+/* ----------------------------------------Gallery */
+
+.container {
+     display: flex;
+     flex-wrap: wrap;
+     padding: 5px;
+     justify-content: space-around;
+}
+.item {
+     margin: 5px;
+}
 /* ----------------------------------------Footer */
 footer {
     background-color: #282338;
