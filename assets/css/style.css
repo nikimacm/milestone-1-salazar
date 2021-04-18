@@ -30,6 +30,10 @@
     font-weight: 350px;
 }
 
+.btn{
+color: #556b2f;
+}
+
 /* ----------------------------------------Special paddings/margins/text */
 
 .general-sub {
@@ -79,6 +83,7 @@
 }
 /* ----------------------------------------Content */
 .index-info {
+    display: inline-block;
     text-align: center;
     font-family: Lato;
 }
@@ -98,6 +103,21 @@ img {
     flex-wrap: wrap;
     padding: 5px;
     justify-content: space-evenly;
+}
+
+/* ----------------------------------------Google Maps */
+.map-container-6{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.map-container-6 iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
 }
 
 /* ----------------------------------------Footer */
