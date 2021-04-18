@@ -1,8 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;1,400;1,500&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 
-
-
+body{
+    padding-top: 60px;
+}
 /* ----------------------------------------Navbar */
 .navbar .navbar-brand {
     color: #556b2f;
@@ -65,10 +66,6 @@ color: #556b2f;
 }
 
 /* ----------------------------------------Banner */
-.index-banner {
-    width: 100%;
-    background-color: none;
-}
 
 .jumbotron {
     width: 100%;
@@ -96,9 +93,36 @@ img {
     background-position: center;
 }
 
+/*----------------------------------------Flexbox course-content */
+.my-flex-container {
+border: 2px solid green;
+height:  100px;
+margin-bottom: 20px;
+
+}
+
+.my-flex-container-column {
+border: 2px solid green;
+height:  200px;
+margin-bottom: 20px;
+
+}
+
+.my-flex-item {
+    background-color: lightgray;
+    border: 1px dotted grey;
+    height: 300px;
+
+}
+
+.my-flex-item-2 {
+    background-color: lightgray;
+    border: 1px dotted grey;
+    height: 96px;
+}
 /* ----------------------------------------Gallery */
 
-.container {
+.my-gallery-container {
     display: flex;
     flex-wrap: wrap;
     padding: 5px;
@@ -119,6 +143,7 @@ height:100%;
 width:100%;
 position:absolute;
 }
+
 
 /* ----------------------------------------Footer */
 footer {
