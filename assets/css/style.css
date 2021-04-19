@@ -5,11 +5,11 @@ body{
     padding-top: 60px;
 }
 /* ----------------------------------------Navbar */
-.navbar .navbar-brand {
+ .navbar .navbar-brand {
     color: #556b2f;
     margin-top: 0px;
     margin-left: 25px;
-    font-size: 2.5em;
+    font-size: 3.5em;
     font-family: Josefin Sans;
     font-weight: 400;
     text-transform: uppercase;
@@ -24,15 +24,16 @@ body{
     line-height: 1px;
 }
 
-.nav-item {
+.navbar .nav-item {
     font-family: Lato;
     text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 350px;
+    font-size: 20px;
+    font-weight: 370;
+    color: #282338;
 }
 
 .btn{
-color: #556b2f;
+color: white;
 }
 
 /* ----------------------------------------Special paddings/margins/text */
@@ -58,7 +59,7 @@ color: #556b2f;
 }
 
 /* ----------------------------------------Hero image */
-.img-responsive .img-fluid {
+.img .my-home-image {
     max-width: 100%;
     height: auto;
     background-position: cover;
@@ -78,7 +79,7 @@ color: #556b2f;
     letter-spacing: 4px;
     text-align: center;
 }
-/* ----------------------------------------Content */
+/* ----------------------------------------Content Home Page */
 .index-info {
     display: inline-block;
     text-align: center;
@@ -89,8 +90,11 @@ h3 {
     text-align: center;
 }
 
-img {
-    background-position: center;
+.rounded-circle .home-images {
+    width: 50px;
+    height: 50px;
+    border: 10px solid black;
+    border-radius: 50%;
 }
 
 /*----------------------------------------Flexbox course-content */
