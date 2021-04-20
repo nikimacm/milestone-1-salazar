@@ -5,13 +5,15 @@ body{
     padding-top: 60px;
 }
 /* ----------------------------------------Navbar */
+
+
  .navbar .navbar-brand {
     color: #556b2f;
     margin-top: 0px;
     margin-left: 25px;
     font-size: 3.5em;
     font-family: Josefin Sans;
-    font-weight: 400;
+    font-weight: 350;
     text-transform: uppercase;
     letter-spacing: 4px;
 }
@@ -28,8 +30,10 @@ body{
     font-family: Lato;
     text-transform: uppercase;
     font-size: 20px;
-    font-weight: 370;
+    font-weight: 400;
     color: #282338;
+    display: flex;
+    list-style-type: none;
 }
 
 .btn{
@@ -38,7 +42,7 @@ color: white;
 
 /* ----------------------------------------Special paddings/margins/text */
 
-.general-sub {
+/*.general-sub {
     font-family: "Lato", sans-serif;
     font-weight: 300;
     color: #fafafa;
@@ -98,7 +102,7 @@ h3 {
 }
 
 /*----------------------------------------Flexbox course-content */
-.my-flex-container {
+/*.my-flex-container {
 border: 2px solid green;
 height:  100px;
 margin-bottom: 20px;
@@ -154,6 +158,7 @@ width:100%;
 position:absolute;
 }
 
+/* ----------------------------------------Crew-cards */
 
 /* ----------------------------------------Footer */
 footer {
