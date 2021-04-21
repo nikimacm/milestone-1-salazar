@@ -74,6 +74,9 @@ color: white;
 
 .jumbotron {
     width: 100%;
+    background-color: #282338;
+    color: #eee2dc;
+
 }
 .jumbotron h1 {
     font-family: Josefin Sans;
@@ -86,19 +89,24 @@ color: white;
 /* ----------------------------------------Content Home Page */
 .index-info {
     display: inline-block;
-    text-align: center;
+    text-align: justify;
     font-family: Lato;
+    background-color: #eee2dc;
 }
 
 h3 {
     text-align: center;
 }
 
-.rounded-circle {
-border:1px solid;
+.rounded-circle  {
+    padding:1px;
+   border:4px solid #282338;
+   background-color:#fafafa;
 border-radius:50%;
+ border-style:double;
 width:200px;
 height:200px;
+position: center;
 
 }
 
@@ -143,6 +151,10 @@ padding-right: 50px;
     padding: 5px;
     justify-content: space-evenly;
 }
+
+/* ----------------------------------------Carousal reviews */
+
+
 
 /* ----------------------------------------Google Maps */
 .map-container-6{
