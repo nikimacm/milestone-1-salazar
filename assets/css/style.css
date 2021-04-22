@@ -1,12 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;1,400;1,500&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 
-body {
-    padding-top: 60px;
-}
+
 /* ----------------------------------------Navbar */
 
-.navbar .navbar-brand {
+/*.navbar .navbar-brand {
     color: #556b2f;
     margin-top: 0px;
     margin-left: 25px;
@@ -21,7 +19,7 @@ body {
     font-family: Josefin Sans;
     text-transform: none;
     letter-spacing: 0.5px;
-    color: #777777;
+    color: #2d2327;
     line-height: 1px;
 }
 
@@ -41,7 +39,7 @@ body {
 
 /*----------------------------------------Special paddings/margins/text */
 
-.general-sub {
+/*.general-sub {
     font-family: "Lato", sans-serif;
     font-weight: 300;
     color: #fafafa;
@@ -53,7 +51,7 @@ body {
 
 /* ----------------------------------------Hover */
 
-#navbarNav a:hover {
+/*#navbarNav a:hover {
     border-bottom: 1px solid #556b2f;
 }
 
@@ -61,29 +59,10 @@ body {
     border-bottom: 1px solid #282338;
 }
 
-/* ----------------------------------------Hero image */
-.img .my-home-image {
-    max-width: 100%;
-    height: auto;
-    background-position: cover;
-    background-repeat: no-repeat;
-}
 
 /* ----------------------------------------Banner */
 
-.jumbotron {
-    width: 100%;
-    background-color: #282338;
-    color: #eee2dc;
-}
-.jumbotron h1 {
-    font-family: Josefin Sans;
-    font-style: italic;
-    font-size: 25px;
-    font-weight: 400;
-    letter-spacing: 4px;
-    text-align: center;
-}
+
 /* ----------------------------------------Content Home Page */
 .index-info {
     display: inline-block;
@@ -149,7 +128,14 @@ padding-right: 50px;
     justify-content: space-evenly;
 }
 
-/* ----------------------------------------Carousal reviews */
+/* ----------------------------------------Carousal gallery */
+
+/* Make the image fully responsive */
+  .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+
 
 .container {
     max-width: 950px;
@@ -158,11 +144,11 @@ padding-right: 50px;
 
 .card {
     border-radius: 1rem;
-    box-shadow: 0px -10px 0px #556b2f;
+    box-shadow: 0px -10px 0px #b05449;
     margin-top: 50px;
     margin-bottom: 50px;
-    background-color: #282338;
-    color: #fafafa;
+    background-color: #e1c1b7;
+    color: #2d2327
 }
 
 @media (max-width: 767px) {
@@ -215,7 +201,7 @@ padding-right: 50px;
 
 /* ----------------------------------------Footer */
 footer {
-    background-color: #282338;
+    background-color: #b05449;
     color: #fafafa;
     min-height: 100px;
     margin: 0px;
