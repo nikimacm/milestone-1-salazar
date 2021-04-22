@@ -1,6 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;1,400;1,500&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 
+body {
+    margin-top: 50px;
+}
 
 /* ----------------------------------------Navbar */
 
@@ -121,21 +124,39 @@ padding-right: 50px;
 }
 /* ----------------------------------------Gallery */
 
-.my-gallery-container {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 5px;
-    justify-content: space-evenly;
+/* ----------------------------------------Carousel gallery */
+
+.carousel {
+  position: relative;
+  height: 50vh;
 }
 
-/* ----------------------------------------Carousal gallery */
+.carousel-caption {
+  position: absolute;
+  background: rgba(0,0,0,0.4);
+  padding: 15px 10px;
+}
 
-/* Make the image fully responsive */
-  .carousel-inner img {
-    width: 100%;
-    height: 100%;
-  }
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%;
+}
 
+#MagicCarousel{
+  height: 90vh;
+}
+.navbar{
+  height:15vh
+}
+.carousel-inner , .carousel-item{
+height:100%;
+
+}
+.carousel-item{
+    overflow:hidden;
+}
+
+/* ----------------------------------------review cards */
 
 .container {
     max-width: 950px;
