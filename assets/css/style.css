@@ -68,10 +68,13 @@ body {
 
 /* ----------------------------------------Content Home Page */
 .index-info {
+     background-color: #dbb238;
+    position: relative;
+    left: 5%;
+    width: 90%;
     display: inline-block;
     text-align: justify;
     font-family: Lato;
-    background-color: #eee2dc;
 }
 
 h3 {
@@ -128,7 +131,9 @@ padding-right: 50px;
 
 .carousel {
   position: relative;
-  height: 50vh;
+  left: 0px;
+  top: 30px;
+  height:50vh;
 }
 
 .carousel-caption {
@@ -158,12 +163,9 @@ height:100%;
 
 /* ----------------------------------------review cards */
 
-.container {
-    max-width: 950px;
-    max-height: 100px;
-}
 
 .card {
+    height: 200px;
     border-radius: 1rem;
     box-shadow: 0px -10px 0px #b05449;
     margin-top: 50px;
@@ -180,7 +182,7 @@ height:100%;
 }
 
 .card-image {
-    width: 6.2rem;
+    width: 80px;
     border-radius: 5rem;
     margin: 1.3rem auto 1rem auto;
 }
