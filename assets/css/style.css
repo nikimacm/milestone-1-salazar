@@ -159,7 +159,7 @@ height:100%;
     margin-top: 50px;
     margin-bottom: 50px;
     background-color: #e1c1b7;
-    color: #2d2327
+    color: #09280a
 }
 
 @media (max-width: 767px) {
@@ -169,30 +169,29 @@ height:100%;
     }
 }
 
-.card-image {
-    width: 80px;
-    border-radius: 5rem;
-    margin: 1.3rem auto 1rem auto;
-}
-
 .col-md-4 {
     padding: 0 0.5rem;
 }
 
 .card-title {
+    text-align: center;
     font-size: 1rem;
     margin-bottom: 0;
+    margin-top: 15px;
     font-weight: bold;
     font-family: Lato;
 }
 
-.card-text {
+.card-text > p {
     text-align: center;
     padding: 1rem 2rem;
     font-size: 0.8rem;
     line-height: 1.4rem;
 }
 
+.checked {
+  color: #dbb238;
+}
 /* ----------------------------------------Google Maps */
 .map-container-6 {
     overflow: hidden;
