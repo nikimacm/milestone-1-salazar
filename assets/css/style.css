@@ -7,42 +7,17 @@ body {
 
 /* ----------------------------------------Navbar */
 
-/*.navbar .navbar-brand {
-    color: #556b2f;
-    margin-top: 0px;
-    margin-left: 25px;
-    font-size: 3.5em;
-    font-family: Josefin Sans;
+.navbar .navbar-brand{
+    color: #09280a;
+    font-family: Josefin Sans, Sans-serif;
+    font-size: 2.5em;
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 4px;
 }
-.logo {
-    font-size: 35%;
-    font-family: Josefin Sans;
-    text-transform: none;
-    letter-spacing: 0.5px;
-    color: #2d2327;
-    line-height: 1px;
-}
-
-.navbar .nav-item {
-    font-family: Lato;
-    text-transform: uppercase;
-    font-size: 20px;
-    font-weight: 400;
-    color: #282338;
-    display: flex;
-    list-style-type: none;
-}
-
-.btn {
-    color: white;
-}
-
 /*----------------------------------------Special paddings/margins/text */
 
-/*.general-sub {
+.general-sub {
     font-family: "Lato", sans-serif;
     font-weight: 300;
     color: #fafafa;
@@ -54,7 +29,7 @@ body {
 
 /* ----------------------------------------Hover */
 
-/*#navbarNav a:hover {
+#navbarNav a:hover {
     border-bottom: 1px solid #556b2f;
 }
 
@@ -140,6 +115,8 @@ padding-right: 50px;
   position: absolute;
   background: rgba(0,0,0,0.4);
   padding: 15px 10px;
+  letter-spacing: 2px;
+  font: lato;
 }
 
 .carousel-control-prev,
