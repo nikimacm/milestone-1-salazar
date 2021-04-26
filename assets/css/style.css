@@ -9,7 +9,9 @@ body {
 
 .navbar .navbar-brand{
     font-family: Josefin Sans;
-   color: #09280a;
+    font-size: 2.5em;
+    text-shadow: #dbb238;
+    color: #09280a;
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -21,18 +23,6 @@ body {
     font-size: 1em;
     font-weight: 300;
 }
-/*----------------------------------------Special paddings/margins/text */
-
-.general-sub {
-    font-family: "Lato", sans-serif;
-    font-weight: 300;
-    color: #fafafa;
-}
-
-.inline-block {
-    display: inline-block;
-}
-
 /* ----------------------------------------Hover */
 
 #navbarNav a:hover {
@@ -43,21 +33,28 @@ body {
     color: #dbb238;
 
 }
-
 .nav-link .active {
     border-bottom: 1px solid #dbb238;
 }
 
 /* ----------------------------------------Content Home Page */
-.index-info {
-    background-color: #e1c1b7;
-    font-family: josefin Sans;
-    font-weight: 300;
+.home-info {
+    font-weight: 400;
+    font-family: Lato, Sans-serif;
+    letter-spacing: normal;
     position: relative;
     left: 5%;
-    width: 85%;
+    width: 80%;
     display: inline-block;
     text-align: justify;
+}
+
+.home-heading {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: Josefin sans, Sans-serif;
+
+
 }
 
 h3 {
@@ -126,6 +123,11 @@ padding-right: 50px;
   letter-spacing: 2px;
   font: lato;
 
+}
+
+.caption-head {
+    text-transform: uppercase;
+    font-family: Josefin sans, Sans-serif;
 }
 
 .carousel-control-prev,
