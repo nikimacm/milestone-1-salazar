@@ -67,6 +67,7 @@ p {
     text-transform: uppercase;
     font-weight: 400;
     font-family: Josefin sans, Sans-serif;
+    font-size: 1.5em;
 
 
 }
@@ -263,6 +264,13 @@ height:100%;
     border-color: #09280a;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+.courses-head {
+    text-transform: uppercase;
+    font-family: Josefin Sans, sans-serif;
+    font-size: 1.5em;
+    border-bottom: 2px solid #09280a;
 }
 /* ----------------------------------------Contact form*/
 .contact-section {
