@@ -18,7 +18,7 @@ body {
     letter-spacing: 4px;
 }
 
- . .nav-item .nav-link .btn-success li a {
+ .nav-item .nav-link .btn-success li a {
     color:  #fafafa;
 }
 .nav-item {
@@ -83,8 +83,18 @@ h3 {
     font-family: Josefin Sans, Sans-serif;
     font-size: 2em;
     font-weight: 300;
+    background-color: #b05449;
     color: #fafafa;
     text-transform: uppercase;
+    text-decoration: underline 0.5px;
+    padding-bottom: 1px;
+}
+
+.about-info {
+    font-family: Lato, sans-serif;
+    font-size: 1em;
+    font-weight: 350;
+    color:  #09280a
 }
 /*----------------------------------------Flexbox course-content */
 /*.my-flex-container {
