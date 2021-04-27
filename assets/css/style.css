@@ -7,6 +7,7 @@ body {
 
 /* ----------------------------------------Navbar */
 
+
 .navbar .navbar-brand{
     font-family: Josefin Sans;
     font-size: 2.5em;
@@ -163,21 +164,27 @@ padding-right: 50px;
   position: relative;
   left: 0px;
   top: 30px;
-  height:50vh;
+  height:70vh;
+  max-height: 70vh;
 }
 
 .carousel-caption {
   position: absolute;
   background: rgba(0,0,0,0.4);
   padding: 15px 10px;
-  letter-spacing: 2px;
-  font: lato;
 
 }
 
 .caption-head {
     text-transform: uppercase;
     font-family: Josefin sans, Sans-serif;
+}
+
+.carousal-text {
+    font-family: Lato, sans-serif;
+     letter-spacing: 2.5px;
+     
+
 }
 
 .carousel-control-prev,
