@@ -41,14 +41,90 @@
       <li class="nav-item">
         <a class="nav-link" href="contact.html">Contact</a>
       </li>
+            <!-- Trigger/Open The Modal -->
       <li class="nav-item" >
-       <span><a href="booking.html" button class="btn btn-success btn-sm" style="background-color:#09280a">Book Now</a></span><br>
+       <button class="btn btn-success btn-sm" id="myBtn" style="background-color:#09280a">Book Now</button>
+    
+    <!-- The Modal -->
+        <div id="myModal" class="modal">
+
+    <!-- Modal content -->
+        <div class="modal-content">
+    <span class="close">&times;</span>
+
+    <!-- Modal form-->
+
+    <div id="booking" class="section">
+    <div class="section-center">
+        <div class="container">
+            <div class="row">
+                <div class="booking-form">
+                    <div class="form-header">
+                        <h1>Make your reservation</h1>
+                    </div>
+                    <form>
+                        <div class="form-group"> <input class="form-control" type="text" placeholder="Enter Your Name"> <span class="form-label">Name</span> </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group"> <input class="form-control" type="date" required> <span class="form-label">Start Course</span> </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group"> <input class="form-control" type="date" required> <span class="form-label">End Course</span> </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="form-group"> <select class="form-control" required>
+                                        <option value="" selected hidden>No. of rooms</option>
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                    </select> <span class="select-arrow"></span> <span class="form-label">Accomodation</span> </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group"> <select class="form-control" required>
+                                        <option value="" selected hidden>No. of adults</option>
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                    </select> <span class="select-arrow"></span> <span class="form-label">Adults</span> </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group"> <select class="form-control" required>
+                                        <option value="" selected hidden>No. of children</option>
+                                        <option>0</option>
+                                        <option>1</option>
+                                        <option>2</option>
+                                    </select> <span class="select-arrow"></span> <span class="form-label">Children</span> </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group"> <input class="form-control" type="email" placeholder="Enter your Email"> <span class="form-label">Email</span> </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group"> <input class="form-control" type="tel" placeholder="Enter your Phone"> <span class="form-label">Phone</span> </div>
+                            </div>
+                        </div>
+                        <div class="form-btn"> <button class="submit-btn">Book Now</button> </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+  </div>
+</div>
       </li>
       
     </ul>
     
   </div>
+    
   </div>
+  
 </nav>
 </header>
  <!-- Carousel-->
@@ -153,6 +229,35 @@ Granada an ideal area for combining a Spanish course with walking holidays. The 
 </div>
 </div>
 </div>
+
+ <script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>                
+                        
 
   <!-- Footer -->
 
