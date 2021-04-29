@@ -91,6 +91,50 @@ h3 {
     position: center;
 }
 
+    /* ----------------------------------------testamonials */
+
+
+.card {
+    height: 200px;
+    border-radius: 1rem;
+    box-shadow: 0px -10px 0px #b05449;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #e1c1b7;
+    color: #09280a;
+}
+
+@media (max-width: 767px) {
+    .card {
+        margin: 1rem 0.7rem 1rem;
+        max-width: 85vw;
+    }
+}
+
+.card-text, .card-title {
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: 0;
+    margin-top: 7px;
+    font-weight: 400;
+    font-family: Josefin Sams, sans-serif;
+    text-transform: uppercase;
+}
+
+.card-text > p {
+    font-family: lato, sans-serif;
+    text-align: center;
+    padding: 1rem 2rem;
+    font-size: 0.8rem;
+    line-height: 1.4rem;
+    text-transform: lowercase;
+}
+
+.checked {
+  color: #dbb238;
+}
+
+
 /* ----------------------------------------Content About Page */
 .about-head {
     font-family: Josefin Sans, Sans-serif;
@@ -188,48 +232,6 @@ h3 {
     overflow:hidden;
 }
 
-
-/* ----------------------------------------testamonials */
-
-
-.card {
-    height: 200px;
-    border-radius: 1rem;
-    box-shadow: 0px -10px 0px #b05449;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    background-color: #e1c1b7;
-    color: #09280a;
-}
-
-@media (max-width: 767px) {
-    .card {
-        margin: 1rem 0.7rem 1rem;
-        max-width: 80vw;
-    }
-}
-
-.card-text, .card-title {
-    text-align: center;
-    font-size: 1rem;
-    margin-bottom: 0;
-    margin-top: 15px;
-    font-weight: 400;
-    font-family: Josefin Sams, sans-serif;
-    text-transform: uppercase;
-}
-
-.card-text > p {
-    font-family: lato, sans-serif;
-    text-align: center;
-    padding: 1rem 2rem;
-    font-size: 0.8rem;
-    line-height: 1.4rem;
-}
-
-.checked {
-  color: #dbb238;
-}
 
 /* ----------------------------------------Courses Page*/
 .border-course {
