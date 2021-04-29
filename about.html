@@ -1,285 +1,250 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/aa0c2203e6.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
-    <link rel="stylesheet" href="assets/css/style.css" />
 
-    
-    
-    <title>Salazar-About</title>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+	<script src="https://kit.fontawesome.com/aa0c2203e6.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
+	<link rel="stylesheet" href="assets/css/style.css" />
+	<title>Salazar-About</title>
 </head>
+
 <body class="d-flex flex-column min-vh-100">
-    <div class="wrapper flex-grow-1"></div>
-
-<header>
-      <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" style= "background-color: #e1c1b7;">
-    <div class="container">
-        <!-- Navbar Logo-->
-  <a class="navbar-brand" href="index.html">Salazar</a>
-   <span class="navbar-text"></span>
-   <!-- Hamburger -->
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls= "#navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"><i class="far-fa-bars"></i></span>
-  </button>
-<!-- Menu Items -->
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav mr-auto w-100 justify-content-end">
-      <li class="nav-item">
-        <a class="nav-link" href="index.html">Home</a>
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="about.html">About <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="courses.html">Courses</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="contact.html">Contact</a>
-      </li>
-      
-      <!-- Trigger/Open The Modal -->
-      <li class="nav-item" >
-       <button class="btn btn-success btn-sm" id="myBtn" style="background-color:#09280a">Book Now</button>
-    
-    <!-- The Modal -->
-        <div id="myModal" class="modal">
-
-    <!-- Modal content -->
-        <div class="modal-content">
-    <span class="close">&times;</span>
-
-    <!-- Modal form-->
-
-    <div id="booking" class="section">
-    <div class="section-center">
-        <div class="container">
-            <div class="row">
-                <div class="booking-form">
-                    <div class="form-header">
-                        <h1>Make your reservation</h1>
-                    </div>
-                    <form>
-                        <div class="form-group"> <input class="form-control" type="text" placeholder="Enter Your Name"> <span class="form-label">Name</span> </div>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="form-group"> <input class="form-control" type="date" required> <span class="form-label">Start Course</span> </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group"> <input class="form-control" type="date" required> <span class="form-label">End Course</span> </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-4">
-                                <div class="form-group"> <select class="form-control" required>
-                                        <option value="" selected hidden>No. of rooms</option>
-                                        <option>1</option>
-                                        <option>2</option>
-                                        <option>3</option>
-                                    </select> <span class="select-arrow"></span> <span class="form-label">Accomodation</span> </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="form-group"> <select class="form-control" required>
-                                        <option value="" selected hidden>No. of adults</option>
-                                        <option>1</option>
-                                        <option>2</option>
-                                        <option>3</option>
-                                    </select> <span class="select-arrow"></span> <span class="form-label">Adults</span> </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="form-group"> <select class="form-control" required>
-                                        <option value="" selected hidden>No. of children</option>
-                                        <option>0</option>
-                                        <option>1</option>
-                                        <option>2</option>
-                                    </select> <span class="select-arrow"></span> <span class="form-label">Children</span> </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="form-group"> <input class="form-control" type="email" placeholder="Enter your Email"> <span class="form-label">Email</span> </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group"> <input class="form-control" type="tel" placeholder="Enter your Phone"> <span class="form-label">Phone</span> </div>
-                            </div>
-                        </div>
-                        <div class="form-btn"> <button class="submit-btn">Book Now</button> </div>
-                    </form>
-                </div>
+	<div class="wrapper flex-grow-1"></div>
+	<header>
+		<!-- Navbar -->
+		<nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #e1c1b7;">
+			<div class="container">
+				<!-- Navbar Logo--> <a class="navbar-brand" href="index.html">Salazar</a>
+				<span class="navbar-text"></span>
+				<!-- Hamburger -->
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="#navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"><i class="far-fa-bars"></i></span>
+				</button>
+				<!-- Menu Items -->
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav mr-auto w-100 justify-content-end">
+						<li class="nav-item"> <a class="nav-link" href="index.html">Home</a>
+						</li>
+						<li class="nav-item active"> <a class="nav-link" href="about.html">About <span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item"> <a class="nav-link" href="courses.html">Courses</a>
+						</li>
+						<li class="nav-item"> <a class="nav-link" href="contact.html">Contact</a>
+						</li>
+						<!-- Trigger/Open The Modal -->
+						<li class="nav-item">
+							<button class="btn btn-success btn-sm" id="myBtn" style="background-color:#09280a">Book Now</button>
+							<!-- The Modal -->
+							<div id="myModal" class="modal">
+								<!-- Modal content -->
+								<div class="modal-content"> <span class="close">&times;</span>
+									<!-- Modal form-->
+									<div id="booking" class="section">
+										<div class="section-center">
+											<div class="container">
+												<div class="row">
+													<div class="booking-form">
+														<div class="form-header">
+															<h1>Make your reservation</h1>
+														</div>
+														<form>
+															<div class="form-group">
+																<input class="form-control" type="text" placeholder="Enter Your Name"> <span class="form-label">Name</span> 
+															</div>
+															<div class="row">
+																<div class="col-md-6">
+																	<div class="form-group">
+																		<input class="form-control" type="date" required> <span class="form-label">Start Course</span> 
+																	</div>
+																</div>
+																<div class="col-md-6">
+																	<div class="form-group">
+																		<input class="form-control" type="date" required> <span class="form-label">End Course</span> 
+																	</div>
+																</div>
+															</div>
+															<div class="row">
+																<div class="col-md-4">
+																	<div class="form-group">
+																		<select class="form-control" required>
+																			<option value="" selected hidden>No. of rooms</option>
+																			<option>1</option>
+																			<option>2</option>
+																			<option>3</option>
+																		</select> <span class="select-arrow"></span>  <span class="form-label">Accomodation</span> 
+																	</div>
+																</div>
+																<div class="col-md-4">
+																	<div class="form-group">
+																		<select class="form-control" required>
+																			<option value="" selected hidden>No. of adults</option>
+																			<option>1</option>
+																			<option>2</option>
+																			<option>3</option>
+																		</select> <span class="select-arrow"></span>  <span class="form-label">Adults</span> 
+																	</div>
+																</div>
+																<div class="col-md-4">
+																	<div class="form-group">
+																		<select class="form-control" required>
+																			<option value="" selected hidden>No. of children</option>
+																			<option>0</option>
+																			<option>1</option>
+																			<option>2</option>
+																		</select> <span class="select-arrow"></span>  <span class="form-label">Children</span> 
+																	</div>
+																</div>
+															</div>
+															<div class="row">
+																<div class="col-md-6">
+																	<div class="form-group">
+																		<input class="form-control" type="email" placeholder="Enter your Email"> <span class="form-label">Email</span> 
+																	</div>
+																</div>
+																<div class="col-md-6">
+																	<div class="form-group">
+																		<input class="form-control" type="tel" placeholder="Enter your Phone"> <span class="form-label">Phone</span> 
+																	</div>
+																</div>
+															</div>
+															<div class="form-btn">
+																<button class="submit-btn">Book Now</button>
+															</div>
+                                                        </form>
+                                                        <!-- End of Modal Form-->
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<!-- main-image-->
+	<div class="container-fluid img-responsive img-fluid mb-3">
+		<div class="row">
+			<img src="images/alhambra.jpg" alt="alhambra" width="100%">
+		</div>
+	</div>
+	<!-- main-content-->
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8 rounded pt-3 border">
+				<h1 class="about-head">Why Language Immersion?</h1>
+				<p class="about-info">Language immersion programs provide fewer chances to slip back into the safety net of your native tongue. You gain the most from language courses abroad when you only speak the new language. The inability to converse in your familiar language forces your mind to think in the local language first and discover new pathways to convey what you want to say. It familiarizes you with the patterns, tendencies, structures, and verbal signs of the language.</p>
+				<p class="about-info">Attending classes plays only a small part in education. Living in lively and exciting city like Granada provides a great environment for you to practice your language skills while immersing yourself in the local culture. Language immersion programs may enable participants to gain a level of understanding and appreciation of culture and language that isn’t normally available when learning a new language. For instance, our programs provide networking, cultural, and social events with other students from all around the world.</p>
+				<p class="about-info">The principal advantage of language study abroad programs is chronological repetition by practicing the language more frequently and immersing yourself in another language and another culture. In essence, the community may become your classroom to help you develop fluency in a second language while heightening your perception of a different culture and its people.</p>
+				<h1 class="about-head">Why Salazar?</h1>
+				<p class="about-info">We have been teaching Spanish as a foreign language for over 10 years now. Our Spanish school is located in Granada, one of the most fascinating cities in Andalusia, in the south of Spain. The Spanish courses are held throughout the year from January to December. The friendly atmosphere and personal touch of our Spanish classes as well as Granada's Andalusian charm will turn your language holidays into an unforgettable experience. The school building, characterised by its Andalusian style, its friendly classrooms, and its beautiful courtyard, retains much of the charm and intimacy of a family home. It is situated in a quiet location just ten minutes away from the city centre in the old part of the city known as the Albaicín. Students from all over the world and from different age groups participate in our Spanish language programme throughout the year. An extensive cultural programme always complements the Spanish courses.</p>
+				<h1 class="about-head">What to expect</h1>
+				<p class="about-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a metus at sem maximus sollicitudin ut vitae turpis. Cras in interdum urna. Ut id dapibus nulla. Suspendisse maximus eget lectus et aliquam. Cras ornare a urna nec efficitur. Praesent eu ligula a tortor tincidunt fermentum vel et orci. Mauris elementum turpis et pretium viverra. Maecenas quam lorem, dignissim id tortor eget, blandit vestibulum elit. Ut tempor id lacus ac faucibus. Cras sagittis lacinia facilisis. Aenean accumsan laoreet augue sit amet consectetur. Suspendisse eu egestas turpis. Sed a semper velit. Suspendisse suscipit vehicula sem quis condimentum. Nam rutrum at mi id luctus. Mauris interdum, erat id eleifend facilisis, sapien lorem elementum eros, et maximus magna nibh vel purus. Donec pulvinar nulla libero, ac laoreet enim hendrerit eu. Nulla sit amet nunc quis felis eleifend tempus. Donec eu justo velit. Donec ultrices, nunc a tincidunt consequat, est magna pretium lorem, semper tristique risus diam nec augue. Maecenas commodo ipsum a fringilla imperdiet.</p>
             </div>
-        </div>
-    </div>
-</div>
-
-
-  </div>
-</div>
-      </li>
-      
-    </ul>
-    
-  </div>
-  </div>
-</nav>
-</header>
-<!-- main-image-->
-
-<div class="container-fluid img-responsive img-fluid mb-3">
-    <div class="row">
-        <img src="images/alhambra.jpg" alt="alhambra" width="100%">
-    </div>
-</div>
-<!-- main-content-->
-<div class="container">
- <div class="row">
-    <div class="col-md-8 rounded pt-3 border">
-        
-    <h1 class="about-head">Why Language Immersion?</h1>
-  <p class="about-info"> Language immersion programs provide fewer chances to slip back into the safety net of your native tongue. You gain the most from language courses abroad when you only speak the new language. The inability to converse in your familiar language forces your mind to think in the local language first and discover new pathways to convey what you want to say. It familiarizes you with the patterns, tendencies, structures, and verbal signs of the language.
-</p>
-<p class="about-info">Attending classes plays only a small part in education. Living in lively and exciting city like Granada provides a great environment for you to practice your language skills while immersing yourself in the local culture. Language immersion programs may enable participants to gain a level of understanding and appreciation of culture and language that isn’t normally available when learning a new language. For instance, our programs provide networking, cultural, and social events with other students from all around the world.</p>
-<p class="about-info">The principal advantage of language study abroad programs is chronological repetition by practicing the language more frequently and immersing yourself in another language and another culture. In essence, the community may become your classroom to help you develop fluency in a second language while heightening your perception of a different culture and its people.</p>
-<h1 class="about-head">Why Salazar?</h1>
-  <p class="about-info">We have been teaching Spanish as a foreign language for over 10 years now. Our Spanish school is located in Granada, one of the most fascinating cities in Andalusia, in the south of Spain.  The Spanish courses are held throughout the year from January to December. The friendly atmosphere and personal touch of our Spanish classes as well as Granada's Andalusian charm will turn your language holidays into an unforgettable experience.
-
-The school building, characterised by its Andalusian style, its friendly classrooms, and its beautiful courtyard, retains much of the charm and intimacy of a family home. It is situated in a quiet location just ten minutes away from the city centre in the old part of the city known as the Albaicín. Students from all over the world and from different age groups participate in our Spanish language programme throughout the year. An extensive cultural programme always complements the Spanish courses.
-</p>
-
-<h1 class="about-head">What to expect</h1>
-  <p class="about-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a metus at sem maximus sollicitudin ut vitae turpis. Cras in interdum urna. Ut id dapibus nulla. Suspendisse maximus eget lectus et aliquam. Cras ornare a urna nec efficitur. Praesent eu ligula a tortor tincidunt fermentum vel et orci. Mauris elementum turpis et pretium viverra. Maecenas quam lorem, dignissim id tortor eget, blandit vestibulum elit. Ut tempor id lacus ac faucibus. Cras sagittis lacinia facilisis.
-
-Aenean accumsan laoreet augue sit amet consectetur. Suspendisse eu egestas turpis. Sed a semper velit. Suspendisse suscipit vehicula sem quis condimentum. Nam rutrum at mi id luctus. Mauris interdum, erat id eleifend facilisis, sapien lorem elementum eros, et maximus magna nibh vel purus. Donec pulvinar nulla libero, ac laoreet enim hendrerit eu. Nulla sit amet nunc quis felis eleifend tempus. Donec eu justo velit. Donec ultrices, nunc a tincidunt consequat, est magna pretium lorem, semper tristique risus diam nec augue. Maecenas commodo ipsum a fringilla imperdiet. Mauris ac dapibus sapien.
-
-Duis sodales quam non nisl imperdiet posuere. Maecenas quis fringilla est, a blandit diam. Pellentesque a erat commodo, tincidunt dolor eget, elementum ipsum. Suspendisse vitae sapien urna. Donec vestibulum laoreet eros sit amet vehicula. Nam vel metus ex. Vestibulum et mollis nisi, id facilisis urna. Pellentesque tincidunt magna vel arcu dictum, vel cursus dui vulputate. Maecenas venenatis arcu id est commodo dapibus.
-
-</p>
-
-</div>
-
-
-<div class="team-card col-md-3 mt-100" >
-            <div class="team-card-content">
-                <div class="team-card-body p-0">
-                    
-                    <h2>Our team</h2>
-                    <div class="profile"> <img src="https://i.imgur.com/J6l19aF.jpg"> </div>
-                    <div class="team-card-title"> Niki & Jaime<br /> <small>Founders of Salazar</small> </div>
-                    <div class="team-card-subtitle">
-                        <p> <small class="text-muted"> I expected anything less than perfect for the team of experts. They are the best team ever! </small> </p>
-                    </div>
-                </div>
-                    <br>
-                    <div class="profile"> <img src="https://i.imgur.com/J6l19aF.jpg"> </div>
-                    <div class="team-card-title"> Belen<br /> <small>Head of Language Studies</small> </div>
-                    <div class="team-card-subtitle">
-                        <p> <small class="text-muted"> I expected anything less than perfect for the team of experts. They are the best team ever! </small> </p>
-                    </div>
-                
-                    <br>
-                     <div class="profile"> <img src="https://i.imgur.com/J6l19aF.jpg"> </div>
-                    <div class="team-card-title"> Mateo<br /> <small>Course Coordinator</small> </div>
-                    <div class="team-card-subtitle">
-                        <p> <small class="text-muted"> I expected anything less than perfect for the team of experts. They are the best team ever! </small> </p>
-                    </div>
-
-                    <br>
-
-                     <div class="profile"> <img src="https://i.imgur.com/J6l19aF.jpg"> </div>
-                    <div class="team-card-title"> Matilde<br /> <small>Activites Organiser</small> </div>
-                    <div class="team-card-subtitle">
-                        <p> <small class="text-muted"> I expected anything less than perfect for the team of experts. They are the best team ever! </small> </p>
-                    </div>
-                </div>
-           
-        </div>
-
-    
-        
-</div>
-  
-</div>
-    
- <script>
-// Get the modal
-var modal = document.getElementById("myModal");
-
-// Get the button that opens the modal
-var btn = document.getElementById("myBtn");
-
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
-
-// When the user clicks the button, open the modal 
-btn.onclick = function() {
-  modal.style.display = "block";
-}
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-  modal.style.display = "none";
-}
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
-}
-</script>                
-                        
-
-
-  <!-- Footer -->
-
-  <footer class="container-fluid">
-        <div class="row">
-            <div class="col-sm-6">
-               
-            </div>
-            <div class="col-sm-6">
-                
-                
-                <!-- Facebook -->
-                <a class="btn btn-primary btn-floating m-1 pull-right mt-5" style="background-color: #3b5998;" href="#!" role="button"
-        ><i class="fab fa-facebook-f"></i
+            <!-- Team-cards-->
+			<div class="team-card col-md-3 mt-100">
+				<div class="team-card-content">
+					<div class="team-card-body p-0">
+						<h2 class="team-heading">Our team</h2>
+						<div class="profile">
+							<img src="images/niki-jaime.jpeg" alt="team-member-1">
+						</div>
+						<div class="team-card-title">Niki & Jaime
+							<br /> <small>Founders of Salazar</small> 
+						</div>
+						<div class="team-card-subtitle">
+							<p> <small class="text-muted"> Sed a semper velit. Suspendisse suscipit vehicula sem quis condimentum.  Nulla sit amet nunc quis felis eleifend tempus. Donec eu justo velit. Donec ultrices, nunc a tincidunt consequat, est! </small> 
+							</p>
+						</div>
+					</div>
+					<br>
+					<div class="profile">
+						<img src="images/our-crew-belen.jpeg" alt="team-member-2">
+					</div>
+					<div class="team-card-title">Belen
+						<br /> <small>Head of Language Studies</small> 
+					</div>
+					<div class="team-card-subtitle">
+						<p> <small class="text-muted"> Sed a semper velit. Suspendisse suscipit vehicula sem quis condimentum.  Nulla sit amet nunc quis felis eleifend tempus. Donec eu justo velit. Donec ultrices, nunc a tincidunt consequat, est </small> 
+						</p>
+					</div>
+					<br>
+					<div class="profile">
+						<img src="images/our-crew-matteo.jpeg" alt="team-member-3">
+					</div>
+					<div class="team-card-title">Mateo
+						<br /> <small>Course Coordinator</small> 
+					</div>
+					<div class="team-card-subtitle">
+						<p> <small class="text-muted"> ISed a semper velit. Suspendisse suscipit vehicula sem quis condimentum.  Nulla sit amet nunc quis felis eleifend tempus. Donec eu justo velit. Donec ultrices, nunc a tincidunt consequat, est</small> 
+						</p>
+					</div>
+					<br>
+					<div class="profile">
+						<img src="images/our-crew-matilde.jpeg" alt="team-member-4">
+					</div>
+					<div class="team-card-title">Matilde
+						<br /> <small>Activites Organiser</small> 
+					</div>
+					<div class="team-card-subtitle">
+						<p> <small class="text-muted"> Sed a semper velit. Suspendisse suscipit vehicula sem quis condimentum.  Nulla sit amet nunc quis felis eleifend tempus. Donec eu justo velit. Donec ultrices, nunc a tincidunt consequat, est</small> 
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script>
+		// Get the modal
+		var modal = document.getElementById("myModal");
+		
+		// Get the button that opens the modal
+		var btn = document.getElementById("myBtn");
+		
+		// Get the <span> element that closes the modal
+		var span = document.getElementsByClassName("close")[0];
+		
+		// When the user clicks the button, open the modal 
+		btn.onclick = function() {
+		  modal.style.display = "block";
+		}
+		
+		// When the user clicks on <span> (x), close the modal
+		span.onclick = function() {
+		  modal.style.display = "none";
+		}
+		
+		// When the user clicks anywhere outside of the modal, close it
+		window.onclick = function(event) {
+		  if (event.target == modal) {
+		    modal.style.display = "none";
+		  }
+		}
+	</script>
+	<!-- Footer -->
+	<footer class="container-fluid">
+		<div class="row">
+			<div class="col-sm-6"></div>
+			<div class="col-sm-6">
+				<!-- Facebook --> <a class="btn btn-primary btn-floating m-1 pull-right mt-5" style="background-color: #3b5998;" href="#!" role="button"><i class="fab fa-facebook-f"></i
       ></a>
-      <!-- Twitter -->
-      <a
-        class="btn btn-primary btn-floating m-1 pull-right mt-5"
-        style="background-color: #55acee;"
-        href="#!"
-        role="button"
-        ><i class="fab fa-twitter"></i
-      ></a>  
-
-       <!-- Instagram -->
-      <a
-        class="btn btn-primary btn-floating m-1 pull-right mt-5"
-        style="background-color: #ac2bac;"
-        href="#!"
-        role="button"
-        ><i class="fab fa-instagram"></i
+				<!-- Twitter --> <a class="btn btn-primary btn-floating m-1 pull-right mt-5" style="background-color: #55acee;" href="#!" role="button"><i class="fab fa-twitter"></i
+      ></a> 
+				<!-- Instagram --> <a class="btn btn-primary btn-floating m-1 pull-right mt-5" style="background-color: #ac2bac;" href="#!" role="button"><i class="fab fa-instagram"></i
       ></a>
-        <!-- Tripadvisor -->
-      <a
-        class="btn btn-primary btn-floating m-1 pull-right mt-5"
-        style="background-color: #00AF87"
-        href="#!"
-        role="button"
-        ><i class="fab fa-tripadvisor"></i></a>
-            </div>
-            </div>
-    
-    </footer>
-
- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
- 
+				<!-- Tripadvisor --> <a class="btn btn-primary btn-floating m-1 pull-right mt-5" style="background-color: #00AF87" href="#!" role="button"><i class="fab fa-tripadvisor"></i></a>
+			</div>
+		</div>
+	</footer>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
 </body>
+
 </html>
