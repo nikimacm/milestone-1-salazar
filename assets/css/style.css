@@ -135,7 +135,7 @@ h3 {
 }
 
 
-/* ----------------------------------------Content About Page */
+/* ---------------------------------------- About Page Content */
 .about-head {
     font-family: Josefin Sans, Sans-serif;
     font-size: 2em;
@@ -158,10 +158,11 @@ h3 {
     margin-top: 100px
 }
 
+
 .profile img {
     width: 68px;
     height: 68px;
-    border-radius: 50%
+    border-radius: 50%;
 }
 
 .team-card {
@@ -260,15 +261,16 @@ h3 {
 .contact-card {
     
     border-radius: 1rem;
-    box-shadow: 0px -10px 0px #09280a;
+    box-shadow: 0px -10px 0px #b05449;
     margin-top: 50px;
     margin-bottom: 50px;
-    background-color: #b05449;
-    color:#fafafa;
+    background-color: #e1c1b7;
+    color: #09280a;
 }
 
-.contact-heading{
+.contact-heading {
     font-family: Josefin Sans, Sans-serif;
+    color: #09280a;
     text-transform: uppercase;
 }
 
@@ -284,8 +286,9 @@ h3 {
 }
 /* ----------------------------------------Google Maps/Contact */
 
-#map-container-google-11{
-    border-width: 20px;
+#map-container-google-11 {
+    border-radius: 20%;
+    border-width: 10px;
     border-color: #09280a;
 
 }
@@ -388,7 +391,7 @@ footer {
 }
 #social-media {
    position: relative;
-   right: 35px;
+   right: 70px;
 
 }
 
