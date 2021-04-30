@@ -17,7 +17,7 @@ p {
     #nav-logo {
     font-family: Josefin Sans, sans-serif;
     font-size: 2.5em;
-    color: #e1c1b7;
+    color: #fafafa;
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -26,16 +26,19 @@ p {
  .nav-item .nav-link .btn-success li a {
     color:  #fafafa;
 }
-.nav-item .nav-link {
-    color: #e1c1b7;
-    font-family: Lato;
+.navbar .navbar-nav  a {
+    font-family: Lato, sans-serif;
+    color: #fafafa !important;
     font-size: 1em;
-    font-weight: 400;
+    font-weight: 300;
     text-transform: uppercase;
 }
 
 #myBtn {
     text-transform: uppercase;
+}
+.navbar-toggler {
+    background-color: #e1c1b7;
 }
 /* ----------------------------------------Hover */
 
