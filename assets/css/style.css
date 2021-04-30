@@ -14,13 +14,10 @@ p {
 
 /* ----------------------------------------Navbar */
 
-
-.navbar .navbar-brand{
-    font-family: Josefin Sans;
+    #nav-logo {
+    font-family: Josefin Sans, sans-serif;
     font-size: 2.5em;
-    text-shadow: #dbb238;
-    text-shadow: 10px;
-    color: #09280a;
+    color: #e1c1b7;
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -29,8 +26,8 @@ p {
  .nav-item .nav-link .btn-success li a {
     color:  #fafafa;
 }
-.nav-item {
-    color: #09280a;
+.nav-item .nav-link {
+    color: #e1c1b7;
     font-family: Lato;
     font-size: 1em;
     font-weight: 400;
@@ -54,6 +51,7 @@ p {
     border-bottom: 1px solid #dbb238;
 }
 
+ 
 /* ----------------------------------------Content Home Page */
 .home-info {
     font-weight: 390;
@@ -228,19 +226,14 @@ h3 {
 }
 
 .carousel-inner, .carousel-item {
-    height:100%;
+    max-height: 70vh;
 }
 
 .carousel-item{
     overflow:hidden;
 }
 
-@media (min-width: 1200px) {
-    .carousel {
-        height:70vh;
-        max-height: 70vh;
-      }
-}
+
 /* ----------------------------------------Courses Page*/
 .border-course {
     border-radius: 15px;
@@ -355,7 +348,7 @@ h3 {
 
 /* ----------------------------------------Modal Form */
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1200px) {
 .booking-form {
     position: relative;
     left: 50%;
