@@ -93,6 +93,8 @@ h3 {
     position: center;
 }
 
+
+
     /* ----------------------------------------testamonials */
 
 
@@ -144,8 +146,10 @@ h3 {
     background-color: #b05449;
     color: #fafafa;
     text-transform: uppercase;
-    text-decoration: underline 0.5px;
+    border-bottom: 5px solid #e1c1b7;
+    border-top: 5px solid #e1c1b7;
     padding-bottom: 1px;
+    padding-top: 3px;
 }
 
 .about-info {
