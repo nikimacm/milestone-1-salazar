@@ -62,9 +62,10 @@ p {
     letter-spacing: normal;
     position: relative;
     left: 5%;
-    width: 80%;
+    width: 100%;
     display: inline-block;
-    text-align: justify;
+    text-align: center;
+
 }
 
 .home-heading {
