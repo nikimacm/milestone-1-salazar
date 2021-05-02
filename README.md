@@ -264,11 +264,45 @@ Languages used:
 
 ### TESTING <hr>
 
+![User Goals Test](assets/testing/user-goals-test.jpg))
+
 
 
 ### BUGS <hr>
 
 ### DEPLOYMENT <hr>
+
+This project was developed using the [Gitpod](https://gitpod.io), committed to git, and pushed to GitHub using the Gitpod terminal. 
+
+To deploy this page to GitHub Pages from its [GitHub repository](https://github.com/katjacodes/gbrw), the following process was completed: 
+1. Log into GitHub. 
+2. Klick on the account avatar in the top right corner and select "Your repositories" from the dropdown menu.
+3. From the list of repositories, select **gbrw**.
+4. From the menu bar at the top of the page, select **Settings**.
+5. In the menu bar on the left side of the screen, select the second menu item from the bottom, "Pages."
+6. In the **Source** section, select **Master Branch** from the dropdown menu, then click on **Save**.
+7. As a result, the page is refreshed and the website deployed. The **website URL** appears in a blue box above the **Source Section**.
+
+At the moment of submitting this Milestone project the Development Branch and Master Branch are identical. 
+
+### How to run this project locally
+To clone this project into Gitpod you will need a Github account. [Create a Github account here](https://github.com/)
+
+Then follow these steps:
+1. Log into [Gitpod](https://gitpod.com) with your gitpod account.
+2. Navigate to the [Project GitHub repository](https://github.com/katjacodes/gbrw)
+3. Click the green "Gitpod" button in the top right corner of the respository
+4. This will trigger a new gitpod workspace to be created based on the code in GitHub. There, you will be able to work locally.
+
+To work on the project code within a local IDE such as VSCode, Sublime Text, etc.:
+1. Navigate to the [Project GitHub repository](https://github.com/katjacodes/gbrw)
+2. Click the "Code" download button next to the green "Gitpod" button.
+3. In the Clone section, select HTTPs and copy the clone URL for the repository. 
+4. Open your local terminal.
+5. Change the current working directory to the location where you want the cloned directory to be located.
+6. Type ```git clone```, and then paste the URL you copied in Step 4.
+7. Press Enter for your local clon to be created.
+
 
 ### CREDITS<hr>
 
