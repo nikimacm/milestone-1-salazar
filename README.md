@@ -236,9 +236,9 @@ Languages used:
 * HTML 5
 * CSS
 - [Gitpod](https://gitpod.io) 
-    - mnhvhgkhg
+    - Used **Gitpod** as my open source platform.
 - [Github](https://github.com/) 
-    - nbvhgvhg
+    - Used **Github** as my code hosting platform
 - [Google Fonts](https://fonts.google.com/)
     - This project uses **Google fonts** to style the website fonts.
 - [BootstrapCDN](https://www.bootstrapcdn.com/)
@@ -248,12 +248,17 @@ Languages used:
 - [jQuery](https://jquery.com/)
     - This project uses **jQuery** to reference Javascript needed for the responsive navbar.
 - [Popper.js](https://popper.js.org/)
-    - This project uses **Popper.js** to reference Javascript needed for the responsive navbar.
-
+    - **Popper.js** was used to reference Javascript needed for the responsive navbar.
 - [WAVE](https://wave.webaim.org)
-    - jhgftfjyftyitfiytfi
-- [WebAIM](https://webaim.org/resources/contrastchecker/)
-    - This project uses the **WebAIM contrast checker** to make sure the website is accessible to readers with impaired vision.
+    - Used **WAVE** to evaluate my code to ensure the content is fully accessable to individuals with disabilities.
+- [W3 HTML](https://validator.w3.org/)
+    - Used **W3 HTMLs** for HTML code valuation
+- [Jigsaw CSS](https://jigsaw.w3.org/css-validator/)
+    - Used **Jigsaw CSS** to Validate CSS Code
+- [Balsamic](https://balsamiq.com/)
+    - Used **Balsamic** to create [WIREFRAMES](#wireframes)
+- [Minify Code](http://minifycode.com/html-beautifier/)
+    - **Minify Code** is a tool I used to minify and beautify CSS and HTML codes
 
 
 
