@@ -26,11 +26,25 @@ https://nikimacm.github.io/milestone-1-salazar/
     * [Booking](#booking)
 
 * [FEATURES](#features)
-    * [Information](#information)
-    * [Booking Form](#booking-form)
-    * [Price List](#price-list)
-    * [Images](#images)
-    * [Google Maps](#google-maps)
+    * [Feature 1: Home Page](#home)
+    * [Feature 2: About Page](#about)
+    * [Feature 3: Courses Page](#courses)
+    * [Feature 4: Contact Page](#contact)
+    * [Feature 5: Booking Modal](#booking)
+
+* [TECHNOLOGIES USED](#technologies)
+    * [Github](#github)
+    * [Gitpod](#gitpod)
+    * [Google Fonts](#google-fonts)
+    * [Font Awesome](#font-awesome)
+    * [Bootstrap CDN](#bootstrap)
+    * [jQuery](#jquery)
+    * [Popper.js](#popper.js)
+    * [WAVE](#wave)
+    * [W3 HTML](#w3-html)
+    * [Jigsaw CSS](#jigsaw-css)
+    * [Balsamic](#balsamic)
+    * [HTML Beautifier](#html-beautyfier)
 
 * [TESTING](#testing)
 
@@ -215,8 +229,37 @@ The images used were downloaded from https://unsplash.com/ which is a source of 
 
 * Modal form which can be accessed from every page. Consists of text area for name, dropdown to calendar to select start and finish dates. It also includes dropdowns to choose number of rooms, number of adults and number of children. You can enter your email and phone number and click book now.
 
+### TECHNOLOGIES USED <hr>
+
+Languages used:
+
+* HTML 5
+* CSS
+- [Gitpod](https://gitpod.io) 
+    - mnhvhgkhg
+- [Github](https://github.com/) 
+    - nbvhgvhg
+- [Google Fonts](https://fonts.google.com/)
+    - This project uses **Google fonts** to style the website fonts.
+- [BootstrapCDN](https://www.bootstrapcdn.com/)
+    - This project uses **Bootstrap4** to simplify the structure of the website and make the website responsive
+    - This project also uses BootstrapCDN to provide icons from [FontAwesome](https://www.bootstrapcdn.com/fontawesome/)
+
+- [jQuery](https://jquery.com/)
+    - This project uses **jQuery** to reference Javascript needed for the responsive navbar.
+- [Popper.js](https://popper.js.org/)
+    - This project uses **Popper.js** to reference Javascript needed for the responsive navbar.
+
+- [WAVE](https://wave.webaim.org)
+    - jhgftfjyftyitfiytfi
+- [WebAIM](https://webaim.org/resources/contrastchecker/)
+    - This project uses the **WebAIM contrast checker** to make sure the website is accessible to readers with impaired vision.
+
+
 
 ### TESTING <hr>
+
+
 
 ### BUGS <hr>
 
