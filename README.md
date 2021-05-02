@@ -110,20 +110,28 @@ Both the visual and navigational elements of the site need to be user friendly a
 
 ### DESIGN <hr>
 
-#### Design Choices
+#### DESIGN CHOICES
 
-#### Colours
+#### COLOURS
 
-- ![#f03c15](https://via.placeholder.com/15/a4c9df/000000?text=+) `#a4c9df`
-- ![#c5f015](https://via.placeholder.com/15/6d7184/000000?text=+) `#6d7184`
-- ![#1589F0](https://via.placeholder.com/15/556b2f/000000?text=+) `#556b2f`
-- ![#c5f015](https://via.placeholder.com/15/282338/000000?text=+) `#282338`
-- ![#1589F0](https://via.placeholder.com/15/bc8f8f/000000?text=+) `#5bc8f8f`
-#### Fonts
+I chose this color scheme as it reflects the environment in which the company is based. The pinkish hues of the clay on many of the old buildings mixed with the dark green foliage surrounding them. I had planned on making more use of the yellow colour seen here but in the end it didn't really fir in with the content and the style I was trying to convey.
 
-#### Structure
+- ![#09280a](https://via.placeholder.com/15/09280a/000000?text=+) `#09280a`
+- ![#e1c1b7](https://via.placeholder.com/15/e1c1b7/000000?text=+) `#e1c1b7`
+- ![#b05449](https://via.placeholder.com/15/b05449/000000?text=+) `#b05449`
+- ![#dbb238](https://via.placeholder.com/15/dbb238/000000?text=+) `#dbb238`
+
+#### FONTS
+
+The fonts I have chosen to use are Josefin Sans and Lato with sans-serif as a backup font. I chose Josefin Sans due to the elegant style and vintage feel, which I think represents the city in which the school is based. I thought Lato was a good match as it's simplicity and elegance.
+
+#### IMAGES
+
+I have used many images throughout the site to attract potential customers and covey the message that this is a holiday as well as an opportunity to learn the language. 
+The images used were downloaded from https://unsplash.com/ which is a source of freely useable, fully licenced images. Credits for each image can be found below in the [CREDITS](#credits) section.
 
 ### WIREFRAMES <hr>
+
 
 #### Home
 
@@ -156,15 +164,57 @@ Both the visual and navigational elements of the site need to be user friendly a
 * [mobile-booking](wireframes/mobile-Book.png)
 
 ### FEATURES <hr>
-#### Information
 
-#### Booking Form
 
-#### Price List
+#### Feature 1: Home Page
+* Navbar with the option of clicking Book Now to produce a modal with booking options.
 
-#### Images
+* Carousal giving snippets of information about the company and photos of Granada.
 
-#### Google Maps
+* Information section which provides information on the three main areas the company specialises in. You can click on a button for more info at the end of each section which leads to the courses page.
+
+* Testamonial section where you can read reviews of previous customers.
+
+* Footer which provides a clickable icon to bring you to the contact page where you can request more information. There are also Trip Advisor, Instagram, Twitter and facebook icons which would lead to more reviews, information and photos for interested potential customers.
+
+#### Feature 2: About Page
+
+* Navbar with the option of clicking Book Now to produce a modal with booking options.
+
+* Full size image of The Alhambra which is the most visited monument in Spain and a UNESCO World Heritage Site. I felt it was important to include an image of The Alhambra on the site as it is one of the main reasons tourists and students visit Granada.
+
+* Information section giving detailed info on what is language immersion, why our company and what we offer, and a section explaining what kind of experience you can expect by signing up for one of our courses/holidays.
+
+* an introduction to the team here at Salazar to create a more personalised feel and give clients the confidence to contact with any questions they may have. 
+
+* Footer which provides a clickable icon to bring you to the contact page where you can request more information. There are also Trip Advisor, Instagram, Twitter and facebook icons which would lead to more reviews, information and photos for interested potential customers.
+
+#### Feature 3: Courses page
+
+* Navbar with the option of clicking Book Now to produce a modal with booking options.
+
+* Carousal giving snippets of information about the courses provided and photos related to the courses.
+
+* Information section giving descriptions of the courses, including prices. Each section has a Book Now button leading to the booking modal.
+
+* Footer which provides a clickable icon to bring you to the contact page where you can request more information. There are also Trip Advisor, Instagram, Twitter and facebook icons which would lead to more reviews, information and photos for interested potential customers.
+
+#### Feature 4: Contact form
+
+* Navbar with the option of clicking Book Now to produce a modal with booking options.
+
+* Contact form where you can submit your name, email, subject matter and message to contact the team at Salazar.
+
+* Google Maps section which shows the location of the company. 
+
+* Contact information section tails of address, telephone, business hours and email address for both information and booking departments.
+
+* Footer which provides a clickable icon to bring you to the contact page where you can request more information. There are also Trip Advisor, Instagram, Twitter and facebook icons which would lead to more reviews, information and photos for interested potential customers.
+
+#### Feature 5: Modal used for booking.
+
+* Modal form which can be accessed from every page. Consists of text area for name, dropdown to calendar to select start and finish dates. It also includes dropdowns to choose number of rooms, number of adults and number of children. You can enter your email and phone number and click book now.
+
 
 ### TESTING <hr>
 
