@@ -274,9 +274,9 @@ Languages used:
 
 This project was developed using the [Gitpod](https://gitpod.io), committed to git, and pushed to GitHub using the Gitpod terminal. 
 
-To deploy this page to GitHub Pages from its [GitHub repository](https://github.com/katjacodes/gbrw), the following process was completed: 
+To deploy this page to GitHub Pages from its [GitHub repository](https://nikimacm.github.io/milestone-1-salazar/), the following process was completed: 
 1. Log into GitHub. 
-2. Klick on the account avatar in the top right corner and select "Your repositories" from the dropdown menu.
+2. Click on the account avatar in the top right corner and select "Your repositories" from the dropdown menu.
 3. From the list of repositories, select **gbrw**.
 4. From the menu bar at the top of the page, select **Settings**.
 5. In the menu bar on the left side of the screen, select the second menu item from the bottom, "Pages."
@@ -290,12 +290,12 @@ To clone this project into Gitpod you will need a Github account. [Create a Gith
 
 Then follow these steps:
 1. Log into [Gitpod](https://gitpod.com) with your gitpod account.
-2. Navigate to the [Project GitHub repository](https://github.com/katjacodes/gbrw)
+2. Navigate to the [Project GitHub repository](https://nikimacm.github.io/milestone-1-salazar/)
 3. Click the green "Gitpod" button in the top right corner of the respository
 4. This will trigger a new gitpod workspace to be created based on the code in GitHub. There, you will be able to work locally.
 
 To work on the project code within a local IDE such as VSCode, Sublime Text, etc.:
-1. Navigate to the [Project GitHub repository](https://github.com/katjacodes/gbrw)
+1. Navigate to the [Project GitHub repository](https://nikimacm.github.io/milestone-1-salazar/)
 2. Click the "Code" download button next to the green "Gitpod" button.
 3. In the Clone section, select HTTPs and copy the clone URL for the repository. 
 4. Open your local terminal.
