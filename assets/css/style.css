@@ -56,6 +56,20 @@ p {
 
  
 /* ----------------------------------------Content Home Page */
+
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
 .home-info {
     font-weight: 400;
     font-family: Lato, Sans-serif;
