@@ -305,6 +305,7 @@ h3 {
 
 
 /* ----------------------------------------Courses Page*/
+
 .border-course {
     border-radius: 15px;
     border-width: 10px;
@@ -317,16 +318,30 @@ h3 {
     text-transform: uppercase;
     font-family: Josefin Sans, sans-serif;
     font-size: 1.5em;
+    font-weight: 400;
     border-bottom: 2px solid #09280a;
+}
+
+.course-text {
+     font-family: Lato, sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 30px;
+    color:  #09280a;
+}
+
+.course-photos {
+ width: 100%; 
+ height: auto; 
+ overflow:hidden;
 }
 /* ----------------------------------------Contact form*/
 
-.contact-card .btn .btn-success .btn-lg {
-    color: #dbb238;
+.form-btn-contact .submit-btn-contact {
+
+    background-color: #09280a;
+    color: #fafafa;
     text-transform: uppercase;
-}
-.fa-envelope i{
-    color: #09280a;
 }
 
 .contact-section {
@@ -337,8 +352,6 @@ h3 {
     
     border-radius: 1rem;
     box-shadow: 0px -10px 0px #b05449;
-    margin-top: 50px;
-    margin-bottom: 50px;
     background-color: #e1c1b7;
     color: #09280a;
 }
@@ -351,13 +364,17 @@ h3 {
 
 .section-description {
     font-family: Lato, sans-serif;
+    font-size: 12px;
+    font-weight: 4;
     color: #09280a;
+    margin-top: 5px;
 
 }
 
 .contact-info {
     font-family: Lato, sans-serif;
-    font-size: 14px;
+    font-size: 12px;
+    font-weight: 400;
     color: #09280a;
 
 }
@@ -366,19 +383,40 @@ h3 {
 .map-container-6 {
     overflow: hidden;
     padding-bottom: 56.25%;
-    position: relative;
-    top: 10%;
-    height: 0;
-    border-width: 10px;
-    border-color: #09280a;
 }
 .map-container-6 iframe {
     left: 0;
     top: 0;
     height: 80%;
-    width: 80%;
+    width: 70%;
     position: absolute;
 
+}
+
+#map-container {
+    padding-bottom: 0;
+}
+
+@media (max-width: 767px) {
+  
+#map-container {
+    display: none;
+}
+.card-body {
+    margin-top: 60px;
+    align-content: center;
+}
+}
+
+@media (max-width: 968px) {
+  
+#map-container {
+    max-width: 100%;
+}
+.card-body {
+    margin-top: 60px;
+    align-content: center;
+}
 }
 
 /* ---------------------------------------- Modal*/
