@@ -62,20 +62,11 @@ p {
   width: 33.33%;
 }
 
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 
 .home-info {
     font-weight: 400;
     font-family: Lato, Sans-serif;
     letter-spacing: normal;
-    position: relative;
-    left: 5%;
     width: 100%;
     display: inline-block;
     text-align: center;
@@ -113,7 +104,8 @@ h3 {
 
 
 .card {
-    height: 200px;
+    width: 100%;
+    height: auto;
     border-radius: 1rem;
     box-shadow: 0px -10px 0px #b05449;
     margin-top: 50px;
@@ -121,12 +113,19 @@ h3 {
     background-color: #e1c1b7;
     color: #09280a;
 }
-/*]@media (max-width: 767px) {
+ @media (max-width: 767px) {
     .card {
-        margin: 1rem 0.7rem 1rem;
-        max-width: 85vw;
+        margin: 1rem 0.6rem 0.6rem;
+       
     }
-}*/
+}
+
+ @media (max-width: 992px) {
+    .card {
+        margin: 1rem 0.6rem 0.6rem;
+       
+    }
+}
 
 .card-text, .card-title {
     text-align: center;
@@ -207,17 +206,19 @@ h3 {
 }
 
 /* ----------------------------------------Carousel gallery */
-@media (min-width: 1200px) {
-    .carousel {
-        height:70vh;
-        max-height: 70vh;
-      }
-}
+
 
 .carousel {
   position: relative;
   left: 0px;
   top: 30px; 
+}
+
+@media (min-width: 1200px) {
+    .carousel {
+        height:70vh;
+        max-height: 70vh;
+      }
 }
 
 .carousel-caption {
@@ -236,7 +237,14 @@ h3 {
     font-family: Lato, sans-serif;
      letter-spacing: 2.5px;
      
+     
 
+}
+@media (max-width: 767px) {
+    .carousel-text  {
+        display: none;
+       
+    }
 }
 
 .carousel-control-prev,
@@ -417,6 +425,13 @@ footer {
    position: relative;
    right: 70px;
 
+}
+
+@media (max-width: 768px) {
+#social-media {
+    text-align: center;
+    margin-bottom: 16px;
+}
 }
 .contact-footer {
     font-family: Josefin Sans, sans-serif;
