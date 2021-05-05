@@ -11,8 +11,7 @@
 	<title>Salazar-Home</title>
 </head>
 
-<body class="d-flex flex-column min-vh-100">
-	<div class="wrapper flex-grow-1"></div>
+<body>
 	<!-- Navbar -->
 	<header>
 		<nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #b05449">
@@ -125,12 +124,7 @@
 	</header>
 	<!-- contact us form -->
 	<!-- google maps -->
-	<!--Section: Contact v.1-->
 	<section class="contact-section">
-		<!--Section heading-->
-		<h2 class="contact-heading">Contact us</h2>
-		<!--Section description-->
-		<p class="section-description pb-4">Feel free to contact us with any questions or feedback you may have.</p>
 		<div class="row">
 			<!--Grid column-->
 			<div class="col-lg-5 mb-4">
@@ -138,11 +132,11 @@
 				<div class="contact-card">
 					<div class="card-body">
 						<!--Header-->
-						<div class="form-header blue accent-1">
+						<div class="form-header blue accent-1" style="color: #09280a">
 							<h3><i class="fas fa-envelope"></i> Write to us:</h3>
 						</div>
-						<p>We would love to hear from you.</p>
-						<br>
+						<p class="text-center">We would love to hear from you.</p>
+						
 						<!--Body-->
 						<div class="md-form"> <i class="fas fa-user prefix grey-text"></i>
 							<input type="text" id="form-name" class="form-control" placeholder="Enter Your Name">
@@ -153,16 +147,15 @@
 							<label for="form-email">Email</label>
 						</div>
 						<div class="md-form"> <i class="fas fa-tag prefix grey-text"></i>
-							<input type="text" id="form-Subject" class="form-control" placeholder="Subject Matter">
+							<input type="text" id="form-Subject" class="form-control" placeholder="Subject">
 							<label for="form-Subject">Subject</label>
 						</div>
 						<div class="md-form"> <i class="fas fa-pencil-alt prefix grey-text"></i>
 							<textarea id="form-text" class="form-control md-textarea" rows="3" placeholder="Leave Your Message Here"></textarea>
 							<label for="form-text">Message</label>
 						</div>
-						<div class="text-center mt-4">
-							<button class="btn btn-success btn-lg" style="background-color:#09280a">Submit</button>
-						</div>
+						<div class="form-btn-contact">
+						    <button class="submit-btn-contact">Submit</button></div>
 					</div>
 				</div>
 				<!--Form with header-->
@@ -171,7 +164,7 @@
 			<!--Grid column-->
 			<div class="col-lg-7">
 				<!--Google map-->
-				<div id="map-container-google-11" class="z-depth-1-half map-container-6" style="height: 500px">
+				<div id="map-container" class="z-depth-1-half map-container-6" style="height: 500px">
 					<iframe src="https://maps.google.com/maps?q=cuesta%20del%20chapiz&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" style="border:20px" allowfullscreen></iframe>
 				</div>
 				<br>
@@ -195,13 +188,13 @@
 		</div>
 	</section>
 	<!-- Footer -->
-	<footer class="container-fluid">
+<footer class="container-fluid">
 		<div class="row">
-			<div class="col-sm-6 ml-auto">
-
-                <a class="btn btn-secondary btn-floating m-3 pull-left mt-5 ml-5" style="background-color: #09280a;" a href="contact.html" role="button" aria-disabled="true" id="footer-link"><i class="fas fa-envelope-square"></i></a> 
+			<div class="col-sm-6 ml-auto"> 
            
-						<p class="contact-footer mt-5"><small>Cuesta del Chapiz 18, Granada, Spain </small></p>
+            <p class="contact-footer mt-3">Cuesta del Chapiz 18 <br>Granada, Spain<br>
+            <i class="fas fa-envelope-square" style="background-color: #09280a;"></i> info@salazarlanguage.es</p>
+            
 						
     
 			</div>
