@@ -177,6 +177,19 @@ h3 {
     margin-top: 100px
 }
 
+#about-image {
+
+  object-fit: cover;
+
+}
+
+@media (max-width: 767px) {
+    #about-image {
+    margin-top: 35px;
+       
+    }
+}
+
 
 .profile img {
     width: 68px;
@@ -424,10 +437,6 @@ footer {
     min-height: 100px;
     margin: 0px;
 }
-#social-media {
-  
-
-}
 
 @media (max-width: 768px) {
 #social-media {
@@ -435,6 +444,7 @@ footer {
     align-items: center;
     justify-content: center;
     margin-bottom: 20px;
+}
 }
 
 .contact-footer {
@@ -448,9 +458,9 @@ footer {
 
 @media (max-width: 768px) {
 .contact-footer {
-    display: flex;
+   
     align-items: center;
-    justify-content: center;
+    text-align:  center;
     
 }
 }
