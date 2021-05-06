@@ -64,8 +64,9 @@ body {
 
 
 .home-info {
-    font-weight: 300;
-    color: #fafafa;
+    font-weight: 400;
+    font-size: 15px;
+    color: #09280a;
     font-family: Lato, Sans-serif;
     letter-spacing: 1px;
     line-height: 30px;
@@ -75,7 +76,7 @@ body {
 }
 
 .home-heading {
-    color: #fafafa;
+    color: #f0e1dc;
     text-transform: uppercase;
     font-weight: 400;
     font-family: Josefin sans, Sans-serif;
@@ -83,10 +84,20 @@ body {
 
 
 }
+#home-body {
+    border: 10px solid #ffffff;
+    border-radius: 15px;
+}
 
 h3 {
     text-align: center;
 }
+
+.home-hr {
+        height: 1px;
+        background-color: #09280a;
+        border: none;
+    }
 
 .rounded-circle {
     padding: 5px;
