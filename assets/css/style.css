@@ -36,6 +36,7 @@ body {
 
 #myBtn {
     text-transform: uppercase;
+    margin-left: 0!important;
 }
 .navbar-toggler {
     background-color: #e1c1b7;
@@ -47,7 +48,7 @@ body {
 }
 
 .navbar .navbar-brand a:hover {
-    color: #dbb238;
+    border-bottom: 2px solid #dbb238;
 
 }
 .nav-link .active {
@@ -530,6 +531,7 @@ footer {
     text-transform: uppercase !important;
     letter-spacing: 1px;
 }
+
 
 @media (max-width: 540px) {
 .contact-footer {
