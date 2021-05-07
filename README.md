@@ -185,21 +185,35 @@ The images used were downloaded from https://unsplash.com/ which is a source of 
 
 * Carousal giving snippets of information about the company and photos of Granada.
 
-* Information section which provides information on the three main areas the company specialises in. You can click on a button for more info at the end of each section which leads to the courses page.
+![Navbar and carousel](docs/features/homepage-carousal-screenshot.png)
+
+* Information section which provides information on the three main areas the company specialises in. 
+
+![Information Section](docs/features/homepage-info-screenshot.png)
+
 
 * Testamonial section where you can read reviews of previous customers.
 
+![Testamonial Section](docs/features/testamonials-screenshot.png)
+
 * Footer which provides a clickable icon to bring you to the contact page where you can request more information. There are also Trip Advisor, Instagram, Twitter and facebook icons which would lead to more reviews, information and photos for interested potential customers.
 
+![Footer](docs/features/footer-screenshot.png)
 #### Feature 2: About Page
 
 * Navbar with the option of clicking Book Now to produce a modal with booking options.
 
 * Full size image of The Alhambra which is the most visited monument in Spain and a UNESCO World Heritage Site. I felt it was important to include an image of The Alhambra on the site as it is one of the main reasons tourists and students visit Granada.
 
+![Hero Image](docs/features/about-hero-screenshot.png)
+
 * Information section giving detailed info on what is language immersion, why our company and what we offer, and a section explaining what kind of experience you can expect by signing up for one of our courses/holidays.
 
-* an introduction to the team here at Salazar to create a more personalised feel and give clients the confidence to contact with any questions they may have. 
+![About Us](docs/features/about-info-screenshot.png)
+
+* An introduction to the team here at Salazar to create a more personalised feel and give clients the confidence to contact with any questions they may have. 
+
+![Our Team](docs/features/team-screenshot.png)
 
 * Footer which provides a clickable icon to bring you to the contact page where you can request more information. There are also Trip Advisor, Instagram, Twitter and facebook icons which would lead to more reviews, information and photos for interested potential customers.
 
@@ -209,7 +223,11 @@ The images used were downloaded from https://unsplash.com/ which is a source of 
 
 * Carousal giving snippets of information about the courses provided and photos related to the courses.
 
+![Carousel courses](docs/features/course-carousel-screenshot.png)
+
 * Information section giving descriptions of the courses, including prices. Each section has a Book Now button leading to the booking modal.
+
+![Courses Info](docs/features/courses-screenshot.png)
 
 * Footer which provides a clickable icon to bring you to the contact page where you can request more information. There are also Trip Advisor, Instagram, Twitter and facebook icons which would lead to more reviews, information and photos for interested potential customers.
 
@@ -223,11 +241,15 @@ The images used were downloaded from https://unsplash.com/ which is a source of 
 
 * Contact information section tails of address, telephone, business hours and email address for both information and booking departments.
 
+![Contact Form](docs/features/contact-page-screenshot.png)
+
 * Footer which provides a clickable icon to bring you to the contact page where you can request more information. There are also Trip Advisor, Instagram, Twitter and facebook icons which would lead to more reviews, information and photos for interested potential customers.
 
 #### Feature 5: Modal used for booking.
 
 * Modal form which can be accessed from every page. Consists of text area for name, dropdown to calendar to select start and finish dates. It also includes dropdowns to choose number of rooms, number of adults and number of children. You can enter your email and phone number and click book now.
+
+![Modal Booking Form](docs/features/booking-screen-screenshot.png)
 
 ### TECHNOLOGIES USED <hr>
 
