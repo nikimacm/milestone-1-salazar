@@ -16,29 +16,32 @@
 	<header>
 		<!-- Navbar -->
 		<nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #b05449">
-			<div class="container">
-				<!-- Navbar Logo--> <a class="navbar-brand" id="nav-logo" href="index.html">Salazar</a>
+		<div class="container">
+            
+            <!-- Navbar Logo--> 
+            <a class="navbar-brand" id="nav-logo" href="index.html">Salazar</a>
 				<span class="navbar-text"></span>
-				<!-- Hamburger -->
+                
+                <!-- Hamburger -->
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="#navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"><i class="far-fa-bars"></i></span>
 				</button>
-				<!-- Menu Items -->
+                
+                <!-- Menu Items -->
 				<div class="collapse navbar-collapse" id="navbarNav">
 					<ul class="navbar-nav mr-auto w-100 justify-content-end">
-						<li class="nav-item active"> <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-						</li>
-						<li class="nav-item"> <a class="nav-link" href="about.html">About</a>
-						</li>
-						<li class="nav-item"> <a class="nav-link" href="courses.html">Courses</a>
-						</li>
-						<li class="nav-item"> <a class="nav-link" href="contact.html">Contact</a>
-						</li>
-						<!-- Trigger/Open The Modal -->
+						<li class="nav-item active"> <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a></li>
+						<li class="nav-item"> <a class="nav-link" href="about.html">About</a></li>
+						<li class="nav-item"> <a class="nav-link" href="courses.html">Courses</a></li>
+						<li class="nav-item"> <a class="nav-link" href="contact.html">Contact</a></li>
+                        
+                        <!-- Trigger/Open The Modal -->
 						<li class="nav-item">
-							<button class="btn btn-secondary btn-sm mt-1 ml-2" id="myBtn" style="background-color:#09280a">Book Now</button>
-							<!-- The Modal -->
-							<div id="myModal" class="modal">
-								<!-- Modal content -->
+						<button class="btn btn-secondary btn-sm mt-1 ml-2" id="myBtn" style="background-color:#09280a">Book Now</button>
+                            
+                        <!-- The Modal -->
+						<div id="myModal" class="modal">
+                                
+                                <!-- Modal content -->
 								<div class="modal-content"> <span class="close">&times;</span>
 									<!-- Modal form-->
 									<div id="booking" class="section">
@@ -180,7 +183,8 @@
 			</div>
 		</div>
 	</div>
-    <!-- General Info with circular photos-->
+   
+    <!-- General Info with photos-->
    
     
 	<div class="container" id="home-body" style="background-color: #e1c1b7">
@@ -197,7 +201,7 @@
                 
 				<h3 class="home-heading" style="background-color: #b05449">Culture</h3><hr class="home-hr">
 				<br />
-				<img src="images/flamenco-dancer-2.jpeg" alt="flamenco-dancer" swidth="100%" class="rounded-circle mx-auto d-block" /> 
+				<img src="images/flamenco-dancer-2.jpeg" alt="flamenco-dancer" width="100%" class="rounded-circle mx-auto d-block"/> 
 				<br>
 				<p class="home-info">Our unique cultural excursions give students experiences only locals normally have access to. Unlike a typical trip where you need to rely on guided tours, we provide direct contact with the culture of Andalucia. Whether it be through dancing flamenco in the caves of Sacromonte, or eating Jamon Serrano in Spain's highest village, students and locals find commonalities through shared experiences.</p>
 			</div>
@@ -205,7 +209,7 @@
                 
 				<h3 class="home-heading" style="background-color: #b05449">Adventure</h3> <hr class="home-hr">
 				<br />
-				<img src="images/skiing-sierra nevada.jpeg" alt="ski-lesson" width="100%" class="rounded-circle mx-auto d-block" /> 
+				<img src="images/skiing-sierra nevada.jpeg" alt="ski-lesson" width="100%" class="rounded-circle mx-auto d-block"/> 
 				<br>
 				<p class="home-info">Many of our programs offer adventure activities that push participants outside of their comfort zones in a safe and supportive environment. We want to challenge participants to try something new, to have fun, and to learn what they are capable of doing. Trying new things is a part of every adventure! However, adventure activities are always optional and our staff members can help offer alternative options should a student not wish to participate.</p>
 			</div>
@@ -218,7 +222,7 @@
 				<div class="card mx-auto">
 					<div class="card-text">
 						<div class="card-title">Conor, Dublin</div>
-						<p>I had the best 12 days! Met lovely people and made memories that will last a lifetime. We have been studying Spanish for quite a few years now and this holiday has really helped us to learn how to use the language with confidence and fluency.
+						<p> I had the best 12 days! Met lovely people and made memories that will last a lifetime. We have been studying Spanish for quite a few years now and this holiday has really helped us to learn how to use the language with confidence and fluency.
 							<br><span class="fa fa-star checked"></span>
 							<span class="fa fa-star checked"></span>
 							<span class="fa fa-star checked"></span>
@@ -258,33 +262,7 @@
 			</div>
 		</div>
 	</div>
-	<script>
-		// Get the modal
-		var modal = document.getElementById("myModal");
-		
-		// Get the button that opens the modal
-		var btn = document.getElementById("myBtn");
-		
-		// Get the <span> element that closes the modal
-		var span = document.getElementsByClassName("close")[0];
-		
-		// When the user clicks the button, open the modal 
-		btn.onclick = function() {
-		  modal.style.display = "block";
-		}
-		
-		// When the user clicks on <span> (x), close the modal
-		span.onclick = function() {
-		  modal.style.display = "none";
-		}
-		
-		// When the user clicks anywhere outside of the modal, close it
-		window.onclick = function(event) {
-		  if (event.target == modal) {
-		    modal.style.display = "none";
-		  }
-		}
-	</script>
+	
 	<!-- Footer -->
 	<footer class="container-fluid">
 		<div class="row">
@@ -306,7 +284,8 @@
 	</footer>
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    <script src="scripts/salazar-modal.js"></script>
 </body>
 
 </html>
