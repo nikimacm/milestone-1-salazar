@@ -82,6 +82,7 @@ body {
     font-weight: 400;
     font-family: Josefin sans, Sans-serif;
     font-size: 1.5em;
+    padding-top: 10px;
 
 
 }
@@ -174,8 +175,9 @@ h3 {
     text-transform: uppercase;
     border-bottom: 5px solid #e1c1b7;
     border-top: 5px solid #e1c1b7;
-    padding-bottom: 1px;
-    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-top: 6px;
+    text-align: center;
 }
 
 .about-info {
@@ -219,9 +221,6 @@ h3 {
 
 .team-card {
     text-align: center;
-    background-color: #e1c1b7;
-    border: 10px solid #fafafa;
-    border-radius: 15px;
    
 }
 
@@ -341,11 +340,18 @@ h3 {
 }
 
 .course-image {
- object-fit: fill;
-  border-radius: 15px;
+   object-fit: cover;
+    border-radius: 25px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+@media only screen and (max-width: 762px) {
+.course-image {
+    width: 100%
+    }
+}
+
 /* ----------------------------------------Contact form*/
 
 .form-btn-contact .submit-btn-contact {
@@ -458,6 +464,7 @@ h3 {
   width: 80%;
 }
 
+
 /* The Close Button */
 .close {
   color: #e1c1b7;
@@ -477,10 +484,18 @@ h3 {
 
 @media only screen and (min-width: 1200px) {
 .booking-form {
-    position: relative;
-    left: 50%;
+    position: relative ;
+    left: 50% ;
 }
 }
+
+@media only screen and (max-width: 992px) {
+.modal-content{
+    width: 100%;;
+    margin-top: 20px;
+    }
+}
+
 
 .form-header {
     font-family: Josefin Sans, sans-serif;
