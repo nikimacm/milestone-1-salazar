@@ -1,6 +1,7 @@
-# Salazar Language and Cultural Holidays
+![Website Mokup](docs/features/website-mockup2.png))
 
-https://nikimacm.github.io/milestone-1-salazar/
+
+# Salazar Language and Cultural Holidays
 
 ## Contents
 
@@ -66,61 +67,62 @@ Both the visual and navigational elements of the site need to be user friendly a
 
 #### User Goals
 
-* To find information about the company, and language immersion in a straighforward and simple manner.
 
-* To know the price of the courses offered and what is included in this price.
+1. To find information about the company, and language immersion in a straighforward and simple manner.
 
-* To discover why these courses differ from others and what can be achieved by signing up. 
+2. To know the price of the courses offered and what is included in this price.
 
-* To be able to book directly from the site, courses and accomodation included.
+3. To discover why these courses differ from others and what can be achieved by signing up. 
 
-* The opportunity to read testimonials and view a gallery of photos to give a clearer idea of how the trip will be.
+4. To be able to book directly from the site, courses and accomodation included.
 
-* Find more information on the courses and activities by clicking onto the instagram, facebook, trip adviser and twitter links provided.
+5. The opportunity to read testimonials and view a gallery of photos to give a clearer idea of how the trip will be.
+
+6. Find more information on the courses and activities by clicking onto the instagram, facebook, trip adviser and twitter links provided.
 
 #### User Stories
 
-* As a potential customer, I would like to find all the info I need and the booking options available without complications.
+7. As a potential customer, I would like to find all the info I need and the booking options available without complications.
 
-* As a newbie to the Spanish language, I'm keen to find out if the courses offered suit total beginners.
+8. As a newbie to the Spanish language, I'm keen to find out if the courses offered suit total beginners.
 
-* As a language and tourism student, I'm wondering if the courses will be beneficial to me while working towards my degree.
+9. As a language and tourism student, I'm wondering if the courses will be beneficial to me while working towards my degree.
 
-* As someone who has a keen interest in history and Spanish culture I'd like to know how much of this is included in the program. So that I can decide if it's right for me.
+10. As someone who has a keen interest in history and Spanish culture I'd like to know how much of this is included in the program. So that I can decide if it's right for me.
 
-*  As a retired person who is not interested in the adventure activities I want to see the other options available to me before I make a decision.
+11.  As a retired person who is not interested in the adventure activities I want to see the other options available to me before I make a decision.
 
-* As a lanuguage teacher in Ireland, I want to create a budget for a group of ten adult students, and hope the online booking platform can assist me in this.
+12. As a lanuguage teacher in Ireland, I want to create a budget for a group of ten adult students, and hope the online booking platform can assist me in this.
 
-* As a person of reduced mobility, the site needs to show the options available to me, so I know this company will provide me with suitable accomodation, accessible learning conditions, transport options etc.
+13. As a person of reduced mobility, the site needs to show the options available to me, so I know this company will provide me with suitable accomodation, accessible learning conditions, transport options etc.
 
 #### Site Owner Goals
 
-* Design a site which represents the services offered and will appeal to the target market using appropriate colour schemes, imagery, typography and useful information.
+14. Design a site which represents the services offered and will appeal to the target market using appropriate colour schemes, imagery, typography and useful information.
 
-* Ensure the site is easy to navigate and all information can be found by visitors within seconds.
+15. Ensure the site is easy to navigate and all information can be found by visitors within seconds.
 
-* Engage postential customers by outlining why the services are unique, trustworthy and valuable.
+16. Engage postential customers by outlining why the services are unique, trustworthy and valuable.
 
-* Increase website traffic from the target audience using tools such as google analytics, blogging and social media.
+17. Increase website traffic from the target audience using tools such as google analytics, blogging and social media.
 
-* Generate leads by asking visitors to subscribe to a monthly newsletter.
+18. Generate leads by asking visitors to subscribe to a monthly newsletter.
 
-* Produce a site which is easily accessible on all sizes, mobile devices and browsers.
+19. Produce a site which is easily accessible on all sizes, mobile devices and browsers.
 
 #### User Requirements and expectations
 
-* A fast loading time.
+20. A fast loading time.
 
-* A website which is clear and easy to navigate.
+21. A website which is clear and easy to navigate.
 
-* Recognisable format, no surprises.
+22. Recognisable format, no surprises.
 
-* A well designed, aesthetically pleasing user interface.
+23. A well designed, aesthetically pleasing user interface.
 
-* The ability to make a decision based on site content.
+24. The ability to make a decision based on site content.
 
-* A means to contact business owners directly for a more personal experience.
+25. A means to contact business owners directly for a more personal experience.
 
 ### DESIGN <hr>
 
@@ -249,7 +251,7 @@ The images used were downloaded from https://unsplash.com/ which is a source of 
 
 * Modal form which can be accessed from every page. Consists of text area for name, dropdown to calendar to select start and finish dates. It also includes dropdowns to choose number of rooms, number of adults and number of children. You can enter your email and phone number and click book now.
 
-![Modal Booking Form](docs/features/booking-screen-screenshot.png)
+![Modal Booking Form](docs/features/booking-modal-screenshot.png)
 
 ### TECHNOLOGIES USED <hr>
 
@@ -285,6 +287,10 @@ Languages used:
 
 
 ### TESTING <hr>
+
+### Performance
+
+
 
 ![User Goals Test](DOS/testing/user-goals-test.jpg))
 
