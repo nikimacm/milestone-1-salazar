@@ -153,33 +153,33 @@ The images used were downloaded from https://unsplash.com/ which is a source of 
 
 #### Home
 
-* [desktop-home](wireframes/desktop-home.png)
+* [desktop-home](docs/wireframes/desktop-home.png)
 
-* [mobile-home](wireframes/mobile-home.png)
+* [mobile-home](docs/wireframes/mobile-home.png)
 
 #### About
 
-* [desktop-about](wireframes/desktop-about.png)
+* [desktop-about](docs/wireframes/desktop-about.png)
 
-* [mobile-about](wireframes/mobile-about.png)
+* [mobile-about](docs/wireframes/mobile-about.png)
 
 #### Courses
 
-* [desktop-courses](wireframes/desktop-courses.png)
+* [desktop-courses](docs/wireframes/desktop-courses.png)
 
-* [mobile-courses](wireframes/mobile-courses.png)
+* [mobile-courses](docs/wireframes/mobile-courses.png)
 
 #### Contact
 
-* [desktop-contact](wireframes/desktop-contact.png)
+* [desktop-contact](docs/wireframes/desktop-contact.png)
 
-* [mobile-contact](wireframes/mobile-contact.png)
+* [mobile-contact](docs/wireframes/mobile-contact.png)
 
 #### Booking
 
-* [desktop-booking](wireframes/desktop-Book.png)
+* [desktop-booking](docs/wireframes/desktop-Book.png)
 
-* [mobile-booking](wireframes/mobile-Book.png)
+* [mobile-booking](docs/wireframes/mobile-Book.png)
 
 ### FEATURES <hr>
 
