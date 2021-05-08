@@ -126,6 +126,8 @@ Both the visual and navigational elements of the site need to be user friendly a
 
 25. A means to contact business owners directly for a more personal experience.
 
+![User Goals Test](docs/testing/user-goals-test.jpg)
+
 ### DESIGN <hr>
 
 #### DESIGN CHOICES
@@ -292,41 +294,63 @@ Languages used:
 
 ### Performance
 
-Google Lighthouse was used to measure the speed and performance of the website.
+Google Lighthouse was used to measure the speed and performance of the website. 
 
 #### Home
 
-* [desktop-home-LH](docs/testing/desktop-home-LH.png)
+* [Lighthouse Desktop Home](docs/testing/desktop-home-LH.png)
 
-* [mobile-home-LH](docs/testing/mobile-home-LH.png)
+* [Lighthouse Mobile Home](docs/testing/mobile-home-LH.png)
 
 #### About
 
-* [desktop-about-LH](docs/testing/desktop-about-LH.png)
+* [Lighthouse Desktop About](docs/testing/desktop-about-LH.png)
 
-* [mobile-about-LH](docs/testing/mobile-about-LH.png)
+* [Lighthouse Mobile About](docs/testing/mobile-about-LH.png)
 
 #### Courses
 
-* [desktop-courses-LH](docs/testing/desktop-courses-LH.png)
+* [Lighthouse Desktop Courses](docs/testing/desktop-courses-LH.png)
 
-* [mobile-courses-LH](docs/testing/mobile-courses-LH.png)
+* [Lighthouse Mobile Courses](docs/testing/mobile-courses-LH.png)
 
 #### Contact
 
-* [desktop-contact-LH](docs/testing/desktop-contact-LH.png)
+* [Lighthouse Desktop Contact](docs/testing/desktop-contact-LH.png)
 
-* [mobile-contact-LH](docs/testing/mobile-contact-LH.png)
+* [Lighthouse Mobile Contact](docs/testing/mobile-contact-LH.png)
 
 ### Accessibility
 
+WAVE Web Accessibility Evaluation Tool was used to test the sites accessibility. Each page conveys this message "Congratulations! No errors were detected! Manual testing is still necessary to ensure compliance and optimal accessibility".
+
+#### Home
+
+* [Home Page Evaluation](docs/validation/home-wave.png)
 
 
-![User Goals Test](docs/testing/user-goals-test.jpg))
+#### About
+
+* [About Page Evaluation](docs/validation/about-wave.png)
 
 
+#### Courses
 
-### BUGS <hr>
+* [Courses Page Evaluation](docs/validation/courses-wave.png)
+
+
+#### Contact
+
+* [Contact Page Evaluation](docs/validation/contact-wave.png)
+
+### HTML and CSS Validation
+
+
+* [HTML Validation](docs/validation/HTML-W3.png)
+
+
+* [CSS Validation](docs/validation/CSS-W3.png) 
+
 
 ### DEPLOYMENT <hr>
 
