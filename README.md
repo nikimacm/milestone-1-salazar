@@ -1,4 +1,4 @@
-![Website Mokup](docs/features/website-mockup2.png)
+![Website Mockup](docs/features/website-mockup2.png)
 
 https://nikimacm.github.io/milestone-1-salazar/
 
