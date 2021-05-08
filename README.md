@@ -1,6 +1,6 @@
 ![Website Mokup](docs/features/website-mockup2.png)
 
-https://nikimacm.github.io/milestone-1-salazar/
+ [View Live Site Here](#https://nikimacm.github.io/milestone-1-salazar/)
 
 
 # Salazar Language and Cultural Holidays
