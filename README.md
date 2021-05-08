@@ -318,6 +318,8 @@ Google Lighthouse was used to measure the speed and performance of the website.
 
 * [mobile-contact-LH](docs/testing/mobile-contact-LH.png)
 
+### Accessibility
+
 
 
 ![User Goals Test](docs/testing/user-goals-test.jpg))
@@ -380,7 +382,7 @@ I downloaded all the images for this site from upsplash.com.
 * Photo by <a href="https://unsplash.com/@samferrara?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Samuel Ferrara</a> on <a href="https://unsplash.com/s/photos/skiing?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 * Photo by <a href="https://unsplash.com/@aaronburden?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Aaron Burden</a> on <a href="https://unsplash.com/s/photos/hiking?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
-#### Code Snippets.
+#### Code
 
 Credit for the code used on the booking modal: https://www.w3schools.com/bootstrap4/bootstrap_modal.asp. I used snippets of this code and edited it to make it fit in the project.
 
@@ -389,7 +391,7 @@ My brother in law Pedro del Gallego guided me in using javascript to access the 
 Credit for the code used to make the carousel: https://www.w3schools.com/bootstrap4/bootstrap_carousel.asp. Again I used snippets of this code and edited it to fiT in with the project.
 
  
- ### ### ACKNOWLEDGEMENTS<hr><hr>
+ ### ACKNOWLEDGEMENTS<hr><hr>
  * My mentor Mo Shami for his guidance and advice even on holidays and weekends. He really helped to keep me motivated and on track throughout the project.
  * My brother in law Pedro de Gallego for introducing me to web development and all the support he has given me since I first developed an interest.
  * The team at Code Institute for their help and support.
