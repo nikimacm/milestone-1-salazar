@@ -292,9 +292,35 @@ Languages used:
 
 ### Performance
 
+Google Lighthouse was used to measure the speed and performance of the website.
+
+#### Home
+
+* [desktop-home-LH](docs/testing/desktop-home-LH.png)
+
+* [mobile-home-LH](docs/testing/mobile-home-LH.png)
+
+#### About
+
+* [desktop-about-LH](docs/testing/desktop-about-LH.png)
+
+* [mobile-about-LH](docs/testing/mobile-about-LH.png)
+
+#### Courses
+
+* [desktop-courses-LH](docs/testing/desktop-courses-LH.png)
+
+* [mobile-courses-LH](docs/testing/mobile-courses-LH.png)
+
+#### Contact
+
+* [desktop-contact-LH](docs/testing/desktop-contact-LH.png)
+
+* [mobile-contact-LH](docs/testing/mobile-contact-LH.png)
 
 
-![User Goals Test](DOS/testing/user-goals-test.jpg))
+
+![User Goals Test](docs/testing/user-goals-test.jpg))
 
 
 
