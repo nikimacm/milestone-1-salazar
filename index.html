@@ -2,289 +2,293 @@
 <html lang="en">
 
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="Learn Spanish in Granada, Spain. language immersion holidays with cultural experiences. Live like a local while learning Spanish. Adventure activities in Granada, Spain. ">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-	<script src="https://kit.fontawesome.com/aa0c2203e6.js" crossorigin="anonymous"></script>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
-	<link rel="stylesheet" href="assets/css/style.css" />
-	<title>Salazar-Home</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Learn Spanish in Granada, Spain. language immersion holidays with cultural experiences. Live like a local while learning Spanish. Adventure activities in Granada, Spain. ">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/aa0c2203e6.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <title>Salazar-Home</title>
 </head>
 
 <body class="d-flex flex-column min-vh-100">
-	<div class="wrapper flex-grow-1"></div>
-	<header>
-		<!-- Navbar from bootstrap 4 -->
-		<nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #b05449">
-			<div class="container">
-				<!-- Navbar Logo--> <a class="navbar-brand" id="nav-logo" href="index.html">Salazar</a>
-				<span class="navbar-text"></span>
-				<!-- Hamburger -->
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"><i class="far-fa-bars"></i></span>
-				</button>
-				<!-- Menu Items -->
-				<div class="collapse navbar-collapse" id="navbarNav">
-					<ul class="navbar-nav mr-auto w-100 justify-content-end">
-						<li class="nav-item active"> <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-						</li>
-						<li class="nav-item"> <a class="nav-link" href="about.html">About</a>
-						</li>
-						<li class="nav-item"> <a class="nav-link" href="courses.html">Courses</a>
-						</li>
-						<li class="nav-item"> <a class="nav-link" href="contact.html">Contact</a>
-						</li>
-						<!-- Trigger/Open The Modal --> <!-- Credit for modal to https://www.w3schools.com/bootstrap4/bootstrap_modal.asp -->
-						<li class="nav-item">
-							<button class="btn btn-secondary btn-sm mt-1 ml-2" id="myBtn" style="background-color:#09280a">Book Now</button>
-							<!-- The Modal -->
-							<div id="myModal" class="modal">
-								<!-- Modal content -->
-								<div class="modal-content"> <span class="close">&times;</span>
-									<!-- Modal form-->
-									<div id="booking" class="section">
-										<div class="section-center">
-											<div class="container">
-												<div class="row">
-													<div class="booking-form">
-														<div class="form-header">
-															<h1>Make your reservation</h1>
-														</div>
-														<form>
-															<div class="form-group">
-																<label for="name">Name</label>
-																<input class="form-control" type="text" placeholder="Enter Your Name" id="name"> <span class="form-label">Name</span> 
-															</div>
-															<div class="row">
-																<div class="col-md-6">
-																	<div class="form-group">
-																		<label for="start-date">Date</label>
-																		<input class="form-control" type="date" id="start-date" required> <span class="form-label">Start Course</span>
-																	</div>
-																</div>
-																<div class="col-md-6">
-																	<div class="form-group">
-																		<label for="end-date">Date</label>
-																		<input class="form-control" type="date" id="end-date" required> <span class="form-label">End Course</span>
-																	</div>
-																</div>
-															</div>
-															<div class="row">
-																<div class="col-md-4">
-																	<div class="form-group">
-																		<label for="no-of-rooms">No. of rooms</label>
-																		<select class="form-control" id="no-of-rooms" required>
-																			<option value="" selected hidden>No. of rooms</option>
-																			<option>1</option>
-																			<option>2</option>
-																			<option>3</option>
-																		</select> <span class="select-arrow"></span>  <span class="form-label">Accomodation</span> 
-																	</div>
-																</div>
-																<div class="col-md-4">
-																	<div class="form-group">
-																		<label for="no-of-adults">No. of adults</label>
-																		<select class="form-control" id="no-of-adults" required>
-																			<option value="" selected hidden>No. of adults</option>
-																			<option>1</option>
-																			<option>2</option>
-																			<option>3</option>
-																		</select> <span class="select-arrow"></span>  <span class="form-label">Adults</span> 
-																	</div>
-																</div>
-																<div class="col-md-4">
-																	<div class="form-group">
-																		<label for="no-of-children">No. of children</label>
-																		<select class="form-control" id="no-of-children" required>
-																			<option value="" selected hidden>No. of children</option>
-																			<option>0</option>
-																			<option>1</option>
-																			<option>2</option>
-																		</select> <span class="select-arrow"></span>  <span class="form-label">Children</span> 
-																	</div>
-																</div>
-															</div>
-															<div class="row">
-																<div class="col-md-6">
-																	<div class="form-group">
-																		<label for="email">Email</label>
-																		<input class="form-control" type="email" placeholder="Enter your Email" id="email"> <span class="form-label">Email</span> 
-																	</div>
-																</div>
-																<div class="col-md-6">
-																	<div class="form-group">
-																		<label for="phone">Phone</label>
-																		<input class="form-control" type="tel" placeholder="Enter your Phone" id="phone"> <span class="form-label">Phone</span> 
-																	</div>
-																</div>
-															</div>
-															<div class="form-btn">
-																<button class="submit-btn">Book Now</button>
-															</div>
-														</form>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</nav>
-	</header>
-    <!-- Modal Form End-->
-    
-	<!-- Carousel--> <!-- Carousel Credit to:https://www.w3schools.com/bootstrap4/bootstrap_carousel.asp -->
-	<div class="container">
-		<div id="magicCarousel" class="carousel slide my-5" data-ride="carousel">
-			<!--    Carousel Indicators    -->
-			<ol class="carousel-indicators">
-				<li data-target="#magicCarousel" data-slide-to="0" class="active"></li>
-				<li data-target="#magicCarousel" data-slide-to="1"></li>
-				<li data-target="#magicCarousel" data-slide-to="2"></li>
-				<li data-target="#magicCarousel" data-slide-to="3"></li>
-			</ol>
-			<!--    Carousel Slider    -->
-			<div class="carousel-inner" role="listbox">
-				<div class="carousel-item active">
-					<img src="images/alhambra-arch.jpeg" alt="alhambra-arch" style="width:100%;">
-					<div class="carousel-caption">
-						<h3 class="caption-head">Salazar Language and Cultural Holidays.</h3>
-						<p class="carousel-text">Learn Spanish through our full immersion program. Forget about books and grammar lessons. Conversation is key. Actively learn Spanish while living like a local.</p>
-					</div>
-				</div>
-				<div class="carousel-item">
-					<img src="images/postcards.jpeg" alt="postcards" style="width:100%;">
-					<div class="carousel-caption">
-						<h3 class="caption-head">Experience Language Immersion in Granada</h3>
-						<p class="carousel-text">Experience all Granada has to offer while spending your days with native Spanish speakers. Learn about the history and culture of this magnificent city and discover the secrets hidden away from tourists.</p>
-					</div>
-				</div>
-				<div class="carousel-item">
-					<img src="images/blue-pots.jpeg" alt="street-blue-pots" style="width:100%;">
-					<div class="carousel-caption">
-						<h3 class="caption-head">16 hours of Spanish a day</h3>
-						<p class="carousel-text">We can guarantee you total immersion for 16 hours a day. Think about it, that's the amount of hours you would cover in two months if you go two classes a week. This is the best and fastest way to learn any language.</p>
-					</div>
-				</div>
-				<div class="carousel-item">
-					<img src="images/san-miguel-alto.jpeg" alt="san-miguel-sunset" style="width:100%;">
-					<div class="carousel-caption">
-						<h3 class="caption-head">learn outdoors surrounded by nature</h3>
-						<p class="carousel-text">Whether walking in the Alpuharras, horseriding, skiing or simply enjoying our conversation hours in the garden, you will definitely feel the benifits of outdoor learning. A concept which we here at Salazar strongly believe in.</p>
-					</div>
-				</div>
-				<!--     Carousel Controls     -->
-				<a href="#magicCarousel" class="carousel-control-prev" role="button" data-slide="prev"> <span class="carousel-control-prev-icon"></span>
-					<span class="sr-only">Previous</span>
-				</a>
-				<a href="#magicCarousel" class="carousel-control-next" role="button" data-slide="next"> <span class="carousel-control-next-icon"></span>
-					<span class="sr-only">Next</span>
-				</a>
-			</div>
-		</div>
-	</div>
-	<!-- General Info with photos-->
-	<div class="container" id="home-body">
-		<div class="row">
-			<div class="col-md-12 col-lg-4 mt-3">
-				<h3 class="home-heading" style="background-color: #b05449">Language</h3>
-				<hr class="home-hr">
-				<br />
-				<img src="images/communicate.jpeg" alt="couple-chatting" width="100" class="rounded-circle mx-auto d-block" />
-				<br>
-				<p class="home-info">Our immersive language program is about creating a supportive community to optimize language learning, where every moment becomes an opportunity for language exploration. The nature of the program is all about conversation, designed to depart from book study and grammar lessons to actively use Spanish in a variety of contexts. Student participants will be exposed to a full spectrum of the language, in an intimate and relaxing setting.</p>
-			</div>
-			<div class="col-md-12 col-lg-4 mt-3 home-body">
-				<h3 class="home-heading" style="background-color: #b05449">Culture</h3>
-				<hr class="home-hr">
-				<br />
-				<img src="images/flamenco-dancer-2.jpeg" alt="flamenco-dancer" width="100" class="rounded-circle mx-auto d-block" />
-				<br>
-				<p class="home-info">Our unique cultural excursions give students experiences only locals normally have access to. Unlike a typical trip where you need to rely on guided tours, we provide direct contact with the culture of Andalucia. Whether it be through dancing flamenco in the caves of Sacromonte, or eating Jamon Serrano in Spain's highest village, students and locals find commonalities through shared experiences.</p>
-			</div>
-			<div class="col-md-12 col-lg-4 mt-3 home-body">
-				<h3 class="home-heading" style="background-color: #b05449">Adventure</h3> 
-				<hr class="home-hr">
-				<br />
-				<img src="images/skiing-sierra-nevada.jpeg" alt="ski-lesson" width="100" class="rounded-circle mx-auto d-block" />
-				<br>
-				<p class="home-info">Many of our programs offer adventure activities that push participants outside of their comfort zones in a safe and supportive environment. We want to challenge participants to try something new, to have fun, and to learn what they are capable of doing. Trying new things is a part of every adventure! However, adventure activities are always optional and our staff members can help offer alternative options should a student not wish to participate.</p>
-			</div>
-		</div>
-	</div>
-	<!-- customer reviews -->
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-4 col-sm-12 d-flex align-self-stretch">
-				<div class="card mx-auto">
-					<div class="card-text">
-						<div class="card-title">Conor, Dublin</div>
-						<p>I had the best 12 days! Met lovely people and made memories that will last a lifetime. We have been studying Spanish for quite a few years now and this holiday has really helped us to learn how to use the language with confidence and fluency.
-							<br><span class="fa fa-star checked"></span>
-							<span class="fa fa-star checked"></span>
-							<span class="fa fa-star checked"></span>
-							<span class="fa fa-star checked"></span>
-							<span class="fa fa-star checked"></span>
-						</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-4 col-sm-12 d-flex align-self-stretch">
-				<div class="card mx-auto">
-					<div class="card-text">
-						<div class="card-title">Lucy, London</div>
-						<p>This immersion holiday was perfect because it provided a great balance between learning and fun. There were so many fun/cultural activities while learning the language without feeling too overwhelmed.
-							<br><span class="fa fa-star checked"></span>
-							<span class="fa fa-star checked"></span>
-							<span class="fa fa-star checked"></span>
-							<span class="fa fa-star checked"></span>
-							<span class="fa fa-star checked"></span>
-						</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-lg-4 col-sm-12 d-flex align-self-stretch">
-				<div class="card mx-auto ">
-					<div class="card-text">
-						<div class="card-title">Kate, Brisbane</div>
-						<p>An unforgettable two weeks in an incredible place. Our instructors Belen and matilde were so friendly and made the experience so much more enjoyable! They really made sure to integrate the group and were just always there if we needed anything.
-							<br><span class="fa fa-star checked"></span>
-							<span class="fa fa-star checked"></span>
-							<span class="fa fa-star checked"></span>
-							<span class="fa fa-star checked"></span>
-							<span class="fa fa-star checked"></span>
-						</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- Footer -->
-	<footer class="container-fluid">
-		<div class="row">
-			<div class="col-sm-6 ml-auto">
-				<a href="contact.html">
-					<p class="contact-footer mt-3">Cuesta del Chapiz 18
-						<br>Granada, Spain
-						<br> <i class="fas fa-envelope-square" style="background-color: #09280a;" aria-hidden="true"></i> info@salazarlanguage.es</p>
-				</a>
-			</div>
-			<div class="col-sm-6 ml-auto" id="social-media">
-				<!-- Facebook --> <a class="btn btn-secondary btn-floating m-1 pull-right mt-5 ml-2" style="background-color: #09280a;" href="https://www.facebook.com/" aria-label="first link" target="_blank" rel="noopener" role="button"><i class="fab fa-facebook-f"></i></a>
-				<!-- Twitter --> <a class="btn btn-secondary btn-floating m-1 pull-right mt-5" style="background-color: #09280a;" href="https://www.twitter.com/" aria-label="second link" target="_blank" rel="noopener" role="button"><i class="fab fa-twitter"></i></a>
-				<!-- Instagram --> <a class="btn btn-secondary btn-floating m-1 pull-right mt-5" style="background-color: #09280a;" href="https://www.instagram.com/" aria-label="third link" target="_blank" rel="noopener" role="button" ><i class="fab fa-instagram"></i></a>
-				<!-- Tripadvisor --> <a class="btn btn-secondary btn-floating m-1 pull-right mt-5" style="background-color: #09280a;" href="https://www.tripadvisor.com/" aria-label="fourth link" target="_blank" rel="noopener" role="button"><i class="fab fa-tripadvisor"></i></a>
-			</div>
-		</div>
-	</footer>
-	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
-	<script src="scripts/salazar-modal.js"></script>
+  <div class="wrapper flex-grow-1"></div>
+  <header>
+
+    <!-- Navbar from bootstrap 4 -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #b05449">
+      <div class="container">
+
+        <!-- Navbar Logo-->
+        <a class="navbar-brand" id="nav-logo" href="index.html">Salazar</a>
+        <span class="navbar-text"></span>
+
+        <!-- Hamburger -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"><i class="far-fa-bars"></i></span>
+        </button>
+
+        <!-- Menu Items -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mr-auto w-100 justify-content-end">
+            <li class="nav-item active"> <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a></li>
+            <li class="nav-item"> <a class="nav-link" href="about.html">About</a></li>
+            <li class="nav-item"> <a class="nav-link" href="courses.html">Courses</a></li>
+            <li class="nav-item"> <a class="nav-link" href="contact.html">Contact</a></li>
+            <!-- Trigger/Open The Modal -->
+            <!-- Credit for modal to https://www.w3schools.com/bootstrap4/bootstrap_modal.asp -->
+            <li class="nav-item">
+              <button class="btn btn-secondary btn-sm mt-1 ml-2" id="myBtn" style="background-color:#09280a">Book Now</button>
+
+              <!-- The Modal -->
+              <div id="myModal" class="modal">
+                <!-- Modal content -->
+                <div class="modal-content"> <span class="close">&times;</span>
+                  <!-- Modal form-->
+                  <div id="booking" class="section">
+                    <div class="section-center">
+                      <div class="container">
+                        <div class="row">
+                          <div class="booking-form">
+                            <div class="form-header">
+                              <h1>Make your reservation</h1>
+                            </div>
+                            <form>
+                              <div class="form-group">
+                                <label for="name">Name</label>
+                                <input class="form-control" type="text" placeholder="Enter Your Name" id="name"> <span class="form-label">Name</span>
+                              </div>
+                              <div class="row">
+                                <div class="col-md-6">
+                                  <div class="form-group">
+                                    <label for="start-date">Date</label>
+                                    <input class="form-control" type="date" id="start-date" required> <span class="form-label">Start Course</span>
+                                  </div>
+                                </div>
+                                <div class="col-md-6">
+                                  <div class="form-group">
+                                    <label for="end-date">Date</label>
+                                    <input class="form-control" type="date" id="end-date" required> <span class="form-label">End Course</span>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="col-md-4">
+                                  <div class="form-group">
+                                    <label for="no-of-rooms">No. of rooms</label>
+                                    <select class="form-control" id="no-of-rooms" required>
+                                      <option value="" selected hidden>No. of rooms</option>
+                                      <option>1</option>
+                                      <option>2</option>
+                                      <option>3</option>
+                                    </select> <span class="select-arrow"></span> <span class="form-label">Accomodation</span>
+                                  </div>
+                                </div>
+                                <div class="col-md-4">
+                                  <div class="form-group">
+                                    <label for="no-of-adults">No. of adults</label>
+                                    <select class="form-control" id="no-of-adults" required>
+                                      <option value="" selected hidden>No. of adults</option>
+                                      <option>1</option>
+                                      <option>2</option>
+                                      <option>3</option>
+                                    </select> <span class="select-arrow"></span> <span class="form-label">Adults</span>
+                                  </div>
+                                </div>
+                                <div class="col-md-4">
+                                  <div class="form-group">
+                                    <label for="no-of-children">No. of children</label>
+                                    <select class="form-control" id="no-of-children" required>
+                                      <option value="" selected hidden>No. of children</option>
+                                      <option>0</option>
+                                      <option>1</option>
+                                      <option>2</option>
+                                    </select> <span class="select-arrow"></span> <span class="form-label">Children</span>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="col-md-6">
+                                  <div class="form-group">
+                                    <label for="email">Email</label>
+                                    <input class="form-control" type="email" placeholder="Enter your Email" id="email"> <span class="form-label">Email</span>
+                                  </div>
+                                </div>
+                                <div class="col-md-6">
+                                  <div class="form-group">
+                                    <label for="phone">Phone</label>
+                                    <input class="form-control" type="tel" placeholder="Enter your Phone" id="phone"> <span class="form-label">Phone</span>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="form-btn">
+                                <button class="submit-btn">Book Now</button>
+                              </div>
+                            </form>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- Modal Form End-->
+
+  <!-- Carousel-->
+  <!-- Carousel Credit to:https://www.w3schools.com/bootstrap4/bootstrap_carousel.asp -->
+  <div class="container">
+    <div id="magicCarousel" class="carousel slide my-5" data-ride="carousel">
+      <!--    Carousel Indicators    -->
+      <ol class="carousel-indicators">
+        <li data-target="#magicCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#magicCarousel" data-slide-to="1"></li>
+        <li data-target="#magicCarousel" data-slide-to="2"></li>
+        <li data-target="#magicCarousel" data-slide-to="3"></li>
+      </ol>
+      <!--    Carousel Slider    -->
+      <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active">
+          <img src="images/alhambra-arch.jpeg" alt="alhambra-arch" style="width:100%;">
+          <div class="carousel-caption">
+            <h3 class="caption-head">Salazar Language and Cultural Holidays.</h3>
+            <p class="carousel-text">Learn Spanish through our full immersion program. Forget about books and grammar lessons. Conversation is key. Actively learn Spanish while living like a local.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/postcards.jpeg" alt="postcards" style="width:100%;">
+          <div class="carousel-caption">
+            <h3 class="caption-head">Experience Language Immersion in Granada</h3>
+            <p class="carousel-text">Experience all Granada has to offer while spending your days with native Spanish speakers. Learn about the history and culture of this magnificent city and discover the secrets hidden away from tourists.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/blue-pots.jpeg" alt="street-blue-pots" style="width:100%;">
+          <div class="carousel-caption">
+            <h3 class="caption-head">16 hours of Spanish a day</h3>
+            <p class="carousel-text">We can guarantee you total immersion for 16 hours a day. Think about it, that's the amount of hours you would cover in two months if you go two classes a week. This is the best and fastest way to learn any language.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/san-miguel-alto.jpeg" alt="san-miguel-sunset" style="width:100%;">
+          <div class="carousel-caption">
+            <h3 class="caption-head">learn outdoors surrounded by nature</h3>
+            <p class="carousel-text">Whether walking in the Alpuharras, horseriding, skiing or simply enjoying our conversation hours in the garden, you will definitely feel the benifits of outdoor learning. A concept which we here at Salazar strongly believe in.</p>
+          </div>
+        </div>
+        <!--     Carousel Controls     -->
+        <a href="#magicCarousel" class="carousel-control-prev" role="button" data-slide="prev"> <span class="carousel-control-prev-icon"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a href="#magicCarousel" class="carousel-control-next" role="button" data-slide="next"> <span class="carousel-control-next-icon"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+  </div>
+  <!-- General Info with photos-->
+  <div class="container" id="home-body">
+    <div class="row">
+      <div class="col-md-12 col-lg-4 mt-3">
+        <h3 class="home-heading" style="background-color: #b05449">Language</h3>
+        <hr class="home-hr">
+        <br />
+        <img src="images/communicate.jpeg" alt="couple-chatting" width="100" class="rounded-circle mx-auto d-block" />
+        <br>
+        <p class="home-info">Our immersive language program is about creating a supportive community to optimize language learning, where every moment becomes an opportunity for language exploration. The nature of the program is all about conversation, designed to depart from book study and grammar lessons to actively use Spanish in a variety of contexts. Student participants will be exposed to a full spectrum of the language, in an intimate and relaxing setting.</p>
+      </div>
+      <div class="col-md-12 col-lg-4 mt-3 home-body">
+        <h3 class="home-heading" style="background-color: #b05449">Culture</h3>
+        <hr class="home-hr">
+        <br />
+        <img src="images/flamenco-dancer-2.jpeg" alt="flamenco-dancer" width="100" class="rounded-circle mx-auto d-block" />
+        <br>
+        <p class="home-info">Our unique cultural excursions give students experiences only locals normally have access to. Unlike a typical trip where you need to rely on guided tours, we provide direct contact with the culture of Andalucia. Whether it be through dancing flamenco in the caves of Sacromonte, or eating Jamon Serrano in Spain's highest village, students and locals find commonalities through shared experiences.</p>
+      </div>
+      <div class="col-md-12 col-lg-4 mt-3 home-body">
+        <h3 class="home-heading" style="background-color: #b05449">Adventure</h3>
+        <hr class="home-hr">
+        <br />
+        <img src="images/skiing-sierra-nevada.jpeg" alt="ski-lesson" width="100" class="rounded-circle mx-auto d-block" />
+        <br>
+        <p class="home-info">Many of our programs offer adventure activities that push participants outside of their comfort zones in a safe and supportive environment. We want to challenge participants to try something new, to have fun, and to learn what they are capable of doing. Trying new things is a part of every adventure! However, adventure activities are always optional and our staff members can help offer alternative options should a student not wish to participate.</p>
+      </div>
+    </div>
+  </div>
+  <!-- customer reviews -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 col-sm-12 d-flex align-self-stretch">
+        <div class="card mx-auto">
+          <div class="card-text">
+            <div class="card-title">Conor, Dublin</div>
+            <p>I had the best 12 days! Met lovely people and made memories that will last a lifetime. We have been studying Spanish for quite a few years now and this holiday has really helped us to learn how to use the language with confidence and fluency.
+              <br><span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-12 d-flex align-self-stretch">
+        <div class="card mx-auto">
+          <div class="card-text">
+            <div class="card-title">Lucy, London</div>
+            <p>This immersion holiday was perfect because it provided a great balance between learning and fun. There were so many fun/cultural activities while learning the language without feeling too overwhelmed.
+              <br><span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-12 d-flex align-self-stretch">
+        <div class="card mx-auto ">
+          <div class="card-text">
+            <div class="card-title">Kate, Brisbane</div>
+            <p>An unforgettable two weeks in an incredible place. Our instructors Belen and matilde were so friendly and made the experience so much more enjoyable! They really made sure to integrate the group and were just always there if we needed anything.
+              <br><span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Footer -->
+  <footer class="container-fluid">
+    <div class="row">
+      <div class="col-sm-6 ml-auto">
+        <a href="contact.html">
+          <p class="contact-footer mt-3">Cuesta del Chapiz 18
+            <br>Granada, Spain
+            <br> <i class="fas fa-envelope-square" style="background-color: #09280a;" aria-hidden="true"></i> info@salazarlanguage.es</p>
+        </a>
+      </div>
+      <div class="col-sm-6 ml-auto" id="social-media">
+        <!-- Facebook --><a class="btn btn-secondary btn-floating m-1 pull-right mt-5 ml-2" style="background-color: #09280a;" href="https://www.facebook.com/" aria-label="first link" target="_blank" rel="noopener" role="button"><i class="fab fa-facebook-f"></i></a>
+        <!-- Twitter --><a class="btn btn-secondary btn-floating m-1 pull-right mt-5" style="background-color: #09280a;" href="https://www.twitter.com/" aria-label="second link" target="_blank" rel="noopener" role="button"><i class="fab fa-twitter"></i></a>
+        <!-- Instagram --><a class="btn btn-secondary btn-floating m-1 pull-right mt-5" style="background-color: #09280a;" href="https://www.instagram.com/" aria-label="third link" target="_blank" rel="noopener" role="button"><i class="fab fa-instagram"></i></a>
+        <!-- Tripadvisor --><a class="btn btn-secondary btn-floating m-1 pull-right mt-5" style="background-color: #09280a;" href="https://www.tripadvisor.com/" aria-label="fourth link" target="_blank" rel="noopener" role="button"><i class="fab fa-tripadvisor"></i></a>
+      </div>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+  <script src="scripts/salazar-modal.js"></script>
 </body>
 
 </html>
