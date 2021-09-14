@@ -363,8 +363,10 @@ h3 {
 
 .contact-section {
     margin-top: 10%;
-    margin-left: 10%;
+    margin-right:5%;
+    margin-left: 5%;
 }
+
 .contact-card {
     
     border-radius: 1rem;
