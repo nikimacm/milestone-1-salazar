@@ -363,9 +363,16 @@ h3 {
 
 .contact-section {
     margin-top: 10%;
-    margin-right:5%;
-    margin-left: 5%;
+    margin-left: 15%;
 }
+
+@media only screen and (max-width: 768px) {
+    .contact-section {
+        margin-top: 10%;
+        margin-right:5%;
+        margin-left: 5%;
+    }
+    }
 
 .contact-card {
     
@@ -407,10 +414,21 @@ h3 {
     left: 0;
     top: 0;
     height: 80%;
-    width: 70%;
+    width: 80%;
     position: absolute;
+    border-radius: 1rem;
+    box-shadow: 0px -10px 0px #b05449;
+    background-color: #e1c1b7;
+    color: #09280a;
 
 }
+
+@media (max-width:768px ) {
+    .map-container-6 iframe {
+      left: 70px;
+  
+  }
+  }
 
 #map-container {
     padding-bottom: 0;
@@ -431,6 +449,8 @@ h3 {
   
 #map-container {
     max-width: 100%;
+    align-content: center;
+    padding-right: 40px;
 
 }
 .card-body {
