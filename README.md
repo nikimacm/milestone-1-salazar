@@ -295,6 +295,8 @@ Languages used:
 
 #### User Goals Testing
 
+![User Goals Test](docs/testing/user-goals-testing.png)
+
 1. To find information about the company, and language immersion in a straighforward and simple manner.
     - The home, about and course pages all provide information about what the company has to offer and language immersion as a whole.
 
