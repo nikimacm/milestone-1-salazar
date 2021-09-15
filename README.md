@@ -205,6 +205,7 @@ The images used were downloaded from https://unsplash.com/ which is a source of 
 * Footer which provides a clickable icon to bring you to the contact page where you can request more information. There are also Trip Advisor, Instagram, Twitter and facebook icons which would lead to more reviews, information and photos for interested potential customers.
 
 ![Footer](docs/features/footer-screenshot.png)
+
 #### Feature 2: About Page
 
 * Navbar with the option of clicking Book Now to produce a modal with booking options.
@@ -291,6 +292,71 @@ Languages used:
 
 
 ### TESTING <hr>
+
+#### User Goals Testing
+
+1. To find information about the company, and language immersion in a straighforward and simple manner.
+    - The home, about and course pages all provide information about what the company has to offer and language immersion as a whole.
+
+
+2. To know the price of the courses offered and what is included in this price.
+    - The courses page gives specific details showing the differences between each course including the price.
+
+
+3. To discover why these courses differ from others and what can be achieved by signing up.
+    - The home, about and courses pages give a lot of information about Salazar and the advantages of signing up to these courses.
+    - On the home page you can read testimonials from previous students.
+
+
+4. To be able to book directly from the site, courses and accomodation included.
+    - There is a book now link which can be accessed from every page. It includes booking for accommodation, adults, children, a calendar to book dates and the option to select how many days. 
+
+
+5. The opportunity to read testimonials and view a gallery of photos to give a clearer idea of how the trip will be.
+    - The site includes many photos throughout, in slideshow form and static. The home page has testimonials from previous students.
+
+6. Find more information on the courses and activities by clicking onto the instagram, facebook, trip adviser and twitter links provided.
+    - In the footer on every page you can find instagram, facebook, trip adviser and twitter links to find more information and reviews of the courses and the company in general.
+
+#### User Stories testing
+
+7. As a potential customer, I would like to find all the info I need and the booking options available without complications.
+    - The site has been designed in a very simple and straightforward manner which makes it easy for the viewer to find whatever information they need.
+
+8. As a newbie to the Spanish language, I'm keen to find out if the courses offered suit total beginners.
+
+    - As explained on the about page, all levels are catered for from beginner to advanced.
+
+9. As a language and tourism student, I'm wondering if the courses will be beneficial to me while working towards my degree.
+    - From reading the content throughout the site, the user will see that Salazar not only specialise in language learning but also cultural experiences. So the content should assure this user that this company is suitable for them.
+
+
+10. As someone who has a keen interest in history and Spanish culture I'd like to know how much of this is included in the program. So that I can decide if it's right for me.
+    - From reading the content throughout the site, the user will see that Salazar not only specialise in language learning but also cultural experiences. So the content should assure this user that this company is suitable for them.
+
+
+11.  As a retired person who is not interested in the adventure activities I want to see the other options available to me before I make a decision.
+    - This is covered in the courses page. Students can take cooking, dancing and guitar classes.
+
+12. As a lanuguage teacher in Ireland, I want to create a budget for a group of ten adult students, and hope the online booking platform can assist me in this.
+    - By clicking onto the book now button the teacher can select the amount of students and fill in the contact form if they have questions about group discounts.
+
+13. As a person of reduced mobility, the site needs to show the options available to me, so I know this company will provide me with suitable accomodation, accessible learning conditions, transport options etc.
+    - This is not directly specified in the site, but the user can click onto the contact page and outline their necesities so the company can accomodate them with whatever they need.
+
+#### Site Owner Goals Testing
+
+14. Design a site which represents the services offered and will appeal to the target market using appropriate colour schemes, imagery, typography and useful information.
+
+15. Ensure the site is easy to navigate and all information can be found by visitors within seconds.
+
+16. Engage postential customers by outlining why the services are unique, trustworthy and valuable.
+
+17. Increase website traffic from the target audience using tools such as google analytics, blogging and social media.
+
+18. Generate leads by asking visitors to subscribe to a monthly newsletter.
+
+19. Produce a site which is easily accessible on all sizes, mobile devices and browsers.
 
 ### Performance
 
