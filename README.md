@@ -126,7 +126,6 @@ Both the visual and navigational elements of the site need to be user friendly a
 
 25. A means to contact business owners directly for a more personal experience.
 
-![User Goals Test](docs/testing/user-goals-test.jpg)
 
 ### DESIGN <hr>
 
