@@ -361,10 +361,10 @@ WAVE Web Accessibility Evaluation Tool was used to test the sites accessibility.
 ### HTML and CSS Validation
 
 
-* [HTML Validation](docs/validation/HTML-W3.png)
+* [HTML Validation](docs/validation/w3-validator-HTML-checker.png)
 
 
-* [CSS Validation](docs/validation/CSS-W3.png) 
+* [CSS Validation](docs/validation/w3c-css-validation.png) 
 
 
 ### DEPLOYMENT <hr>
