@@ -304,9 +304,26 @@ Languages used:
 
 ![Site Owners Goals test](docs/testing/site-owner-goals-testing.png)
 
+### BUGS FOUND AND THEIR FIXES <hr>
 
+    1. Header image on the contact page is skewed to the right on some screens.
+    - added media quiery for mobile devices placing margin-right at 5% and margin-left at 5%.
 
-### Performance
+    2. An error in HTML validator stated that an aria-disabled attribute whose value is true should not be specified as an a element that has a href attribute.
+    - removed aria-disabled="true" from all buttons in footer.
+
+    3. An error in HTML validator stated that w-100 was not allowed.
+    - Changed all image sizes to width="100"
+
+    4. Map aligned to left on ipad devices.
+    - Added a media quiery to  align-content: center; padding-right: 40px;
+
+    5. An error in HTML validator stated that the aria-controls attribuye must point to an element in the same document.
+    - Removed an unneccessary id from about.html
+
+    
+
+### PERFORMANCE <hr>
 
 Google Lighthouse was used to measure the speed and performance of the website. 
 
@@ -334,7 +351,7 @@ Google Lighthouse was used to measure the speed and performance of the website.
 
 * [Lighthouse Mobile Contact](docs/testing/mobile-contact-LH.png)
 
-### Accessibility
+### ACCESSIBILITY <hr>
 
 WAVE Web Accessibility Evaluation Tool was used to test the sites accessibility. Each page conveys this message "Congratulations! No errors were detected! Manual testing is still necessary to ensure compliance and optimal accessibility".
 
@@ -357,7 +374,7 @@ WAVE Web Accessibility Evaluation Tool was used to test the sites accessibility.
 
 * [Contact Page Evaluation](docs/validation/contact-wave.png)
 
-### HTML and CSS Validation
+### HTML AND CSS VALIDATION <hr>
 
 
 * [HTML Validation](docs/validation/w3-validator-HTML-checker.png)
