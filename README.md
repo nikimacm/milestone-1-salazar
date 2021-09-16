@@ -297,25 +297,15 @@ Languages used:
 
 ![User Goals Test](docs/testing/user-goals-testing.png)
 
-#### User Stories testing
+#### User Stories Testing
 
 ![User Stories Test](docs/testing/user-stories-testing.png)
 
-
-
 #### Site Owner Goals Testing
 
-14. Design a site which represents the services offered and will appeal to the target market using appropriate colour schemes, imagery, typography and useful information.
+![Site Owners Goals test](docs/testing/site-owner-goals-testing.png)
 
-15. Ensure the site is easy to navigate and all information can be found by visitors within seconds.
 
-16. Engage postential customers by outlining why the services are unique, trustworthy and valuable.
-
-17. Increase website traffic from the target audience using tools such as google analytics, blogging and social media.
-
-18. Generate leads by asking visitors to subscribe to a monthly newsletter.
-
-19. Produce a site which is easily accessible on all sizes, mobile devices and browsers.
 
 ### Performance
 
