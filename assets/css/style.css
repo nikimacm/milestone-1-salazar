@@ -5,13 +5,6 @@ body {
     margin-top: 50px;
 }
 
-/* ----------------------------------------Typography Styling*/
-
-/*p {
-    font-family: Lato, sans-serif;
-    font-weight: 400;
-}
-
 /* ----------------------------------------Navbar */
 
     #nav-logo {
@@ -55,14 +48,12 @@ body {
     border-bottom: 1px solid #dbb238;
 }
 
- 
 /* ----------------------------------------Content Home Page */
 
 .column {
   float: left;
   width: 33.33%;
 }
-
 
 .home-info {
     font-weight: 400;
