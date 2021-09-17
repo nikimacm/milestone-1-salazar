@@ -306,20 +306,20 @@ Languages used:
 
 ### BUGS FOUND AND THEIR FIXES <hr>
 
-    1. Header image on the contact page is skewed to the right on some screens.
-    - added media quiery for mobile devices placing margin-right at 5% and margin-left at 5%.
+1. Header image on the contact page is skewed to the right on some screens.
+- added media quiery for mobile devices placing margin-right at 5% and margin-left at 5%.
 
-    2. An error in HTML validator stated that an aria-disabled attribute whose value is true should not be specified as an a element that has a href attribute.
-    - removed aria-disabled="true" from all buttons in footer.
+2. An error in HTML validator stated that an aria-disabled attribute whose value is true should not be specified as an a element that has a href attribute.
+- removed aria-disabled="true" from all buttons in footer.
 
-    3. An error in HTML validator stated that w-100 was not allowed.
-    - Changed all image sizes to width="100"
+3. An error in HTML validator stated that w-100 was not allowed.
+- Changed all image sizes to width="100"
 
-    4. Map aligned to left on ipad devices.
-    - Added a media quiery to  align-content: center; padding-right: 40px;
+4. Map aligned to left on ipad devices.
+- Added a media quiery to  align-content: center; padding-right: 40px;
 
-    5. An error in HTML validator stated that the aria-controls attribuye must point to an element in the same document.
-    - Removed an unneccessary id from about.html
+5. An error in HTML validator stated that the aria-controls attribuye must point to an element in the same document.
+- Removed an unneccessary id from about.html
 
     
 
@@ -337,13 +337,13 @@ Google Lighthouse was used to measure the speed and performance of the website.
 
 * [Lighthouse Desktop About](docs/testing/desktop-about-LH.png)
 
-* [Lighthouse Mobile About](docs/testing/mobile-about-LH.png)
+* [Lighthouse Mobile About](docs/testing/about-mobile-lighthouse.png)
 
 #### Courses
 
-* [Lighthouse Desktop Courses](docs/testing/desktop-courses-LH.png)
+* [Lighthouse Desktop Courses](docs/testing/courses-desktop-lighthouse.png)
 
-* [Lighthouse Mobile Courses](docs/testing/mobile-courses-LH.png)
+* [Lighthouse Mobile Courses](docs/testing/courses-mobile-lighthouse.png)
 
 #### Contact
 
